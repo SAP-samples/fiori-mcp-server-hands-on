@@ -49,7 +49,7 @@ Begin your exercises here. At the end of each section, there is a link to contin
   - [Exercise 1.4 - Export your designs](./exercises/ex1.4/)
   - [Exercise 1.5 - Enable your MCP Server in Figma](./exercises/ex1.5/)
 
-- [Getting Started - Setting up your AI Development Environment](./exercises/ex1.6/)
+- [Setup your AI Development Environment](./exercises/ex1.6/)
 
 - [Exercise 2 - Create fiori app based on figma design](./exercises/ex2.0/)
   - [Exercise 2.1 Enable automatic data loading in List Report](./exercises/ex2.1/)
