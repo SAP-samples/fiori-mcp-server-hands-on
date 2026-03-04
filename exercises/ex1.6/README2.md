@@ -210,4 +210,4 @@ With the setup procedure done, you now have completed:
 - Creation of your development space
 - Configure AI client - Cline
 
-Continue to - [Exercise 2 - Generate CAP Project and Fiori List Report App based on Image](../ex1.0/README.md)
+Continue to - [Exercise 2 - Create fiori app based on figma design](../ex2.0/README.md)

@@ -21,4 +21,4 @@
 
 * Keep Figma Desktop client running in the background.
 
-Continue to - [Setup Visual Studio Code Development Environment](../ex1.6/README.md)
+Continue to - [Setup your AI Development Environment](../ex1.6/README.md)
