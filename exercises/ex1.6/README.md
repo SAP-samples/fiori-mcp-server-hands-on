@@ -109,7 +109,7 @@ With the setup procedure done, you now have completed:
 - Access to SAP Business Application Studio
 - Configure Cline
 
-Continue to - [Exercise 2 - Create fiori app based on figma design](../ex2.0/README.md)
+Continue to - [Exercise 2 - Create CAP Project and Fiori List Report App based on Figma design](../ex2.0/README.md)
 
 ## TroubleShoot:
 No Dev space available in BAS - [Create new dev space and install cline extension manually](README2.md)

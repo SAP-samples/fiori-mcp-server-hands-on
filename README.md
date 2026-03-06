@@ -51,23 +51,15 @@ Begin your exercises here. At the end of each section, there is a link to contin
 
 - [Setup your AI Development Environment](./exercises/ex1.6/)
 
-- [Exercise 2 - Create fiori app based on figma design](./exercises/ex2.0/)
-  - [Exercise 2.1 Enable automatic data loading in List Report](./exercises/ex2.1/)
-  - [Exercise 2.2 Add table actions from design to list report table](./exercises/ex2.2/)
-  - [Exercise 2.3 Apply business logic for action accept travel](./exercises/ex2.3/)
-  - [Exercise 2.4 Configure filter travel status as valuehelp and display it as dropdown](./exercises/ex2.4/)
-  - [Exercise 2.5 Apply criticality to travel status column](./exercises/ex2.5/)
+- [Exercise 2 - Create CAP Project and Fiori List Report App based on Image](./exercises/ex2.0/)
+    - [Exercise 2.1 Enable automatic data loading in List Report](./exercises/ex2.1/)
+    - [Exercise 2.2 Add new column destination to list report table](./exercises/ex2.2/)
+    - [Exercise 2.3 Add Analytical chart to list report page](./exercises/ex2.3/)
 
-- [Exercise 3 - Modify travel object page based on figma design](./exercises/ex3.0/)
-  - [Exercise 3.1 Adjust Object Page Title and Description](./exercises/ex3.1/)
-  - [Exercise 3.2 Set Label for Object page sub sections](./exercises/ex3.2/)
-  - [Exercise 3.3 Rearrange fields in General information section as per design](./exercises/ex3.3/)
-  - [Exercise 3.4 Set Criticality for status field](./exercises/ex3.4/)
-  - [Exercise 3.5 Add Custom Section with RichTextEditor Building Block](./exercises/ex3.5/)
+- [Exercise 3 - Modify travel object page based on Image](./exercises/ex3.0/)
+    - [Exercise 3.1 Add Custom Section with RichTextEditor Building Block](./exercises/ex3.1/)
 
-- [Exercise 4 - Create booking object page based on figma design](./exercises/ex4/)
-
-- [Exercise 5 - Add Analytical chart to list report page](./exercises/ex5/)
+- [Exercise 4 - Add Object Page for Booking Details](./exercises/ex4.0/)
 
 ## Contributing
 If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
