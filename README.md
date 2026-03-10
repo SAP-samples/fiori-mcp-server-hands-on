@@ -1,10 +1,10 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/fiori-mcp-server-hands-on)](https://api.reuse.software/info/github.com/SAP-samples/fiori-mcp-server-hands-on)
 
-# Hands-on | Create great UX with AI, SAP Fiori elements and the MCP Server for Fiori 
+# Hands-on | Create great UX with AI, SAP Design System, SAP Fiori elements, and SAPUI5 
 
 ## Overview
 
-In this hands-on tutorial you will work through a set of exercises that highlight the benefits and capabilities of the **SAP Design System**, the **Figma** design tool, and the **MCP servers developed by SAP and Figma** to create and modify SAP Fiori applications with the help of AI coding assistants. 
+In this hands-on tutorial you will work through a set of exercises that highlight the benefits and capabilities of the **SAP Design System**, the **Figma** design tool, and the **MCP servers by SAP and for Figma** to create and modify SAP Fiori applications with the help of AI coding assistants. 
 
 You will gain comprehensive knowledge of AI assisted full-stack development, and learn how to use Figma and the SAP Design System to kickstart your SAP Fiori elements application development.
 
