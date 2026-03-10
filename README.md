@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/fiori-mcp-server-hands-on)](https://api.reuse.software/info/github.com/SAP-samples/fiori-mcp-server-hands-on)
+
 # Hands-on | Create great UX with AI, SAP Fiori elements and the MCP Server for Fiori 
 
 ## Overview
