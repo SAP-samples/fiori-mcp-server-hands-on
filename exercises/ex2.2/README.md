@@ -2,11 +2,11 @@
 
 1. Close the previous task.
 
-    <img src="../ex1.0/images/close-task.png" alt="close task" width="60%"/>
+    <img src="../ex2.0/images/close-task.png" alt="close task" width="60%"/>
 
 2. Select **Plan Mode**.
 
-   ![plan mode](../ex1.0/images/plan-mode.png)
+   ![plan mode](../ex2.0/images/plan-mode.png)
 
 3. Copy and paste the following prompt into the task input:  
    ```
