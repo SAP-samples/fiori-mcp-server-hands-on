@@ -52,14 +52,6 @@ Enable Clipboard access to SBAS instance for chrome browser.
 
 ![image](images/ex0img28.png)
 
-Download image [process travels](./images/process-travels.png).
-
-![download](./images/ex0img25.png)
-
-Drag and drop image(process-travels.png) to Explorer.
-
-![explorer](./images/ex0img26.png)
-
 ## Configure Cline (AI Client)
 
 1. Open Cline
@@ -109,7 +101,7 @@ With the setup procedure done, you now have completed:
 - Access to SAP Business Application Studio
 - Configure Cline
 
-Continue to - [Exercise 2 - Create fiori app based on figma design](../ex2.0/README.md)
+Continue to - [Exercise 2 - Create CAP Project and Fiori List Report App based on Figma design](../ex2.0/README.md)
 
 ## TroubleShoot:
 No Dev space available in BAS - [Create new dev space and install cline extension manually](README2.md)

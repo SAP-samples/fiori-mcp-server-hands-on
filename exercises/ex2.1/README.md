@@ -1,10 +1,12 @@
 ## Enable automatic data loading in List Report
 
-1. Close the previous task.
+1. Close previous task.
 
-   ![close task](./images/close-task.png)
+   <img src="../ex2.0/images/close-task.png" alt="close task" width="60%"/>
 
-2. Start new task. Select **Plan Mode**.
+2. Select **Plan Mode**.
+
+   ![plan mode](../ex2.0/images/plan-mode.png)
 
 3. Copy and paste the following prompt into the task input:  
    ```
@@ -26,4 +28,4 @@
 9. When the task is complete. Verify data is loaded on list report table without pressing GO button.
 
 
-Continue to - [Exercise 2.2 - Add table actions from design to list report table](../ex2.2/README.md)
+Continue to - [Exercise 2.2 - Add destination column to List Report table](../ex2.2/README.md)
