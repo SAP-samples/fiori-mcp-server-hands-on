@@ -78,7 +78,7 @@ As a participant of the hands-on, you should already be setup with access to the
 6. Disable Browser Tool Usage:
 
     - In the **Cline Settings**, click on the **Browser** section.
-    - Check the option **Disable browser tool usage**.
+    - Verify the option **Disable browser tool usage** is selected.
 
     <img src="./images/ex0img15.png" alt="disable browser" width="40%"/>
 
