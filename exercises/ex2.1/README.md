@@ -10,7 +10,7 @@
 
 3. Copy and paste the following prompt into the task input:
     ```
-    Enable automatic data loading in List Report. Use fiori mcp
+    I want that the data loads automatically when I open the list report. Use the available MCP servers.
     ```
 
 4. Press `Enter` to execute the task.
