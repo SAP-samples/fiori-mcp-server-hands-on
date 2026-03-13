@@ -17,7 +17,7 @@
     Add mock data for the bookings table.
     ```
 
-4. Now go to Figma, right-click on **Screen 2 - Object Page** → **Copy/Paste as** → **Copy link to selection**.
+4. In the web browser tab with your Figma design, select **Screen 2 - Object Page**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.
 
 5. Insert the link into the prompt text.
 

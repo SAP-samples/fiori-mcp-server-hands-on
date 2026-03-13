@@ -6,7 +6,7 @@
 
 # Execute the following steps to open your design
 
-1. Download the **[Figma File](./figma_file/CA261%20Create%20great%20UX%20with%20AI,%20SAP%20Design%20System,%20SAP%20Fiori%20Elements%20and%20SAP%20UI5.fig)** to your local machine.
+1. Download the **[Figma Design File](./figma_file/CA261%20Create%20great%20UX%20with%20AI,%20SAP%20Design%20System,%20SAP%20Fiori%20Elements%20and%20SAP%20UI5.fig)** to your local machine.
 
    ![Figma](./images/exc1-0-1.png)
 
