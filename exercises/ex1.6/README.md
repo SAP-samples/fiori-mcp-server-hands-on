@@ -101,10 +101,6 @@ As a participant of the hands-on, you should already be setup with access to the
 
     <img src="./images/ex0img21a.png" alt="auto approve" width="40%"/>
 
-## Troubleshoot
-
-No Dev space available in BAS - [Create new dev space and install Cline extension manually](README2.md)
-
 ## Summary
 
 You have successfully set up your AI development environment with SAP Business Application Studio and configured Cline.
