@@ -4,7 +4,7 @@ As a participant of the hands-on, you should already be setup with access to the
 
 ## Accessing SAP Business Application Studio (SBAS)
 
-1. Navigate to https://lcapteched.eu10.build.cloud.sap/lobby.
+1. Open https://lcapteched.eu10.build.cloud.sap/lobby in a new browser window or tab.
 
 2. Open the [Login File for SBAS](../../SBASLogin.txt) and pick the login data for your assigned number.
 
@@ -84,14 +84,21 @@ As a participant of the hands-on, you should already be setup with access to the
 
     <img src="./images/ex0img15.png" alt="disable browser" width="40%"/>
 
-## Verify MCP Servers
+## Finalize Configuration of MCP Servers
 
 1. In the Cline panel, click the **MCP Servers** icon in the top-right corner:
     - Click on **Configure**.
-    - Check that `fiori-mcp`, `cds-mcp` and `Framelink_Figma_MCP` are running and shown "green".
-    - You can use the refresh icon, or restart button if shown to restart each server, in case of problems.
+    - Check that `fiori-mcp`, `cds-mcp` and `Framelink_Figma_MCP` are listed.
 
     ![Cline MCP server setting](./images/ex0img24b.png)
+
+2. Click on **Configure MCP Servers** to open the configuration file.
+
+3. Copy the auth token you have created in the previous excersice to the marked position.
+
+    ![Cline MCP server setting](./images/ex0img25.png)
+
+5. Wait until the three MCP servers status' show "green" again. You can use the refresh icon, or restart button if shown to restart each server, in case of problems.
 
 ## Enable Auto-Approve settings for Cline
 
