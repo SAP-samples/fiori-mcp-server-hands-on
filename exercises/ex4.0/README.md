@@ -35,11 +35,11 @@
 
 ## Troubleshoot
 
+- The booking table doesn't show a navigation. Remind the LLM to add the new page to the app.
 - Error `Composition in draft-enabled entity can't lead to another entity with "@odata.draft.enabled" (in entity:"TravelService.Travel"/element:"Bookings")`. Copy and paste above error message, Cline will fix issue.
-- Could not navigate to booking object page. Execute prompt: `could not navigate to booking object page`.
 - Section **Booking Extras** missing in the booking object page. Execute prompt: `booking extras table section is missing`.
 - Booking Extras table has no data. Execute prompt: `add mock data for booking extras`.
 
 ## Summary
 
-You have completed all exercises!
+Congratulations, you have completed all exercises!
