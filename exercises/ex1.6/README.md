@@ -69,7 +69,7 @@ As a participant of the hands-on, you should already be setup with access to the
 
     <img src="images/ex0img8.png" alt="image" width="40%"/>
 
-4. Click on **Let's Go** button.
+4. Cline is now ready to go.
 
 5. Close all Cline notifications.
 
@@ -82,13 +82,14 @@ As a participant of the hands-on, you should already be setup with access to the
 
     <img src="./images/ex0img15.png" alt="disable browser" width="40%"/>
 
-## Restart MCP Servers
+## Verify MCP Servers
 
 1. In the Cline panel, click the **MCP Servers** icon in the top-right corner:
     - Click on **Configure**.
-    - Restart both `fiori-mcp` and `cds-mcp` servers.
+    - Check that `fiori-mcp`, `cds-mcp` and `Framelink_Figma_MCP` are running and shown "green".
+    - You can use the refresh icon, or restart button if shown to restart each server, in case of problems.
 
-    ![Cline MCP server setting](./images/ex0img24.png)
+    ![Cline MCP server setting](./images/ex0img24b.png)
 
 ## Enable Auto-Approve settings for Cline
 
