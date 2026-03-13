@@ -29,8 +29,8 @@
 
         ![Figma](./images/exc1-4-5.png)
 
-7. The generated token will be shown.
+7. The generated token will be displayed.
 
-8. Leave the Figma browser window with the personal access token open while you proceed to the next exercise.
+8. Leave the Figma web browser window with the personal access token open while you proceed to the next exercise.
 
 Continue to - [Setup your AI Development Environment](../ex1.6/README.md)
