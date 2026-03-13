@@ -118,7 +118,7 @@ Enable Clipboard access to SBAS instance
               "command": "npx",
               "args": [
                 "-y",
-                "@sap-ux/fiori-mcp-server@0.6.27"
+                "@sap-ux/fiori-mcp-server@0.6.41"
               ]
             },
             "cds-mcp": {
