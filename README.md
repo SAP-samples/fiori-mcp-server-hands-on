@@ -44,12 +44,11 @@ We are using Cline as AI client within VSCode and Anthropic claude-4.5-sonnet LL
 
 Begin your exercises here. At the end of each section, there is a link to continue to the next section.
 
-- [Exercise 1 - Open the Figma Design file in your Figma client](./exercises/ex1.0/)
+- [Exercise 1 - Open the Figma Design file in Figma](./exercises/ex1.0/)
   - [Exercise 1.1 - Adjust the buttons in the object page header](./exercises/ex1.1/)
   - [Exercise 1.2 - Add a form item in the object page](./exercises/ex1.2/)
   - [Exercise 1.3 - Edit the new form item in the object page](./exercises/ex1.3/)
-  - [Exercise 1.4 - Export your designs](./exercises/ex1.4/)
-  - [Exercise 1.5 - Enable your MCP Server in Figma](./exercises/ex1.5/)
+  - [Exercise 1.4 - Create a Figma personal access token](./exercises/ex1.4/)
 
 - [Setup your AI Development Environment](./exercises/ex1.6/)
 
