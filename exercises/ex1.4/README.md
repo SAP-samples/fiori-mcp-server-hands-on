@@ -1,23 +1,36 @@
-## Export your designs
+# Create a Figma personal access token
 
-**Check the following steps to export your frames:**  
-   
-Now you have to copy the screenshot as PNG to each one of the frames. Let's take as example the List Report.
+2. In the top left corner of your **design file**, click on **Drafts** to open the **Drafts folder** in a new web browser tab.
 
-* Select the **_Screen 1 - List Report_** from the left side panel.
+    ![Figma](./images/exc1-4-1.png)
 
-![Figma](./images/exc1-4-1.png)
+3. In the top left corner of your **Drafts folder**, click on your Figma user name and select **Settings** from the dropdown.
 
-* Right click on it.
+    ![Figma](./images/exc1-4-2.png)
 
-* A context menu will appear.
+4. Select the **Security** tab.
 
-* Hover over **_Copy/Paste as_**
+    ![Figma](./images/exc1-4-3.png)
 
-* Click on **_Copy as PNG_**.
+5. In the **Personal access tokens** section, select **Create new token**.
 
-![Figma](./images/exc1-4-2.png)
+    ![Figma](./images/exc1-4-4.png)
 
-The URL for the selected screen is now copied to your clipboard.
+6. Fill out the form and submit it.
 
-Continue to - [Exercise 1.5 - Enable your MCP Server in Figma](../ex1.5/README.md)
+    * Enter `AI Development Environment` as the **Token name**
+
+    * Check the following **Scopes**:
+
+        * **file_content:read**
+        * **file_dev_resources:read**
+
+    * Click on **Generate token**.
+
+        ![Figma](./images/exc1-4-5.png)
+
+7. The generated token will be shown.
+
+8. Leave the Figma browser window with the personal access token open while you proceed to the next exercise.
+
+Continue to - [Setup your AI Development Environment](../ex1.6/README.md)
