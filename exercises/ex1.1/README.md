@@ -1,42 +1,46 @@
-## Adjust the buttons in the object page header
+# Adjust the buttons in the object page header
 
-1. **Explore the Canvas**  
-* Familiarize yourself with the canvas in the center of your screen. You’ll see three prepared frames—each representing a screen of the application.
+1. Explore the Canvas.
 
-    ![Figma](./images/exc1-1-1.png)
+    * Familiarize yourself with the canvas in the center of your screen. You’ll see three prepared frames—each representing a screen of the application.
 
-2. **Navigate to Screen 2**   
-* Select the **_Screen 2 - Object Page_** in the left side panel.
+        ![Figma](./images/exc1-1-1.png)
 
-    ![Figma](./images/exc1-1-2.png)
+2. Navigate to Screen 2.
 
-* Press **_Shift + 2_** on your keyboard to zoom in to the selection, or from the main menu select **_View_** → **_Zoom to Selection_**.
+    * Select the **Screen 2 - Object Page** in the left side panel.
 
-    ![Figma](./images/exc1-1-3.png)
+        ![Figma](./images/exc1-1-2.png)
 
-* Your canvas is now focused on the second screen of your application.
+    * Press `Shift` + `2` on your keyboard to zoom in to the selection, or from the main menu select **View** → **Zoom to Selection**.
 
-    ![Figma](./images/exc1-1-4.png)
+        ![Figma](./images/exc1-1-3.png)
 
-3. **Activate the Text Tool**  
-Press **_T_** on your keyboard to switch to the **_Text_** tool, or select the **_Text_** tool icon in the tool menu at the bottom of the screen.
+    * Your canvas is now focused on the second screen of your application.
 
-    ![Figma](./images/exc1-1-5.png)
+        ![Figma](./images/exc1-1-4.png)
 
-4. **Edit Button Texts**  
-Click into each button’s text field to modify the action labels.
+3. Activate the Text Tool.
 
-    ![Figma](./images/exc1-1-6.png)
+    * Press `T` on your keyboard to switch to the **Text** tool, or select the **Text** tool icon in the tool menu at the bottom of the screen.
 
-    Replace the current button text **_Action_** with the following:
+        ![Figma](./images/exc1-1-5.png)
 
-    * **_Accept Travel_**
+4. Edit the Button Texts.
 
-    * **_Deny Travel_**
+    * Click into each button’s text field to modify the action labels.
 
-    * **_Deduct Discount_**
+        ![Figma](./images/exc1-1-6.png)
 
-    ![Figma](./images/exc1-1-7.png)
+    * Replace the current button text **Action** with the following:
+
+        * `Accept Travel`
+
+        * `Deny Travel`
+
+        * `Deduct Discount`
+
+        ![Figma](./images/exc1-1-7.png)
 
 Congratulations! The action buttons now display the correct labels, and your object page header is updated accordingly.
 

@@ -1,49 +1,53 @@
-## Add a form item in the object page
+# Add a form item in the object page
 
-1. **Navigate to Screen 3**  
-* Select the **_Screen 3 - Object Page_** in the left side panel.
+1. Navigate to Screen 3.
 
-    ![Figma](./images/exc1-2-1.png)
+    * Select the **Screen 3 - Object Page** in the left side panel.
 
-* Press **_Shift + 2_** on your keyboard to zoom in to the selection, or from the main menu select **_View_** → **_Zoom to Selection_**.
+        ![Figma](./images/exc1-2-1.png)
 
-* Your canvas is now focused on the third screen of your application.
+    * Press `Shift` + `2` on your keyboard to zoom in to the selection, or from the main menu select **View** → **Zoom to Selection**.
 
-    ![Figma](./images/exc1-2-2.png)
+    * Your canvas is now focused on the third screen of your application.
 
-2. **Activate the Move Tool**  
-* Press **_V_** on your keyboard to switch to the **_Move_** tool, or select the **_Move_** tool icon in the tool menu at the bottom of the screen.
+        ![Figma](./images/exc1-2-2.png)
 
-    ![Figma](./images/exc1-2-3.png)
+2. Activate the Move Tool.
 
-3. **Select the Yellow Slot**   
-* Find the yellow slot labeled “[swap one Form list item in here]”. Hold **_Ctrl_** and single-click the item to select it.
+    * Press `V` on your keyboard to switch to the **Move** tool, or select the **Move** tool icon in the tool menu at the bottom of the screen.
 
-    ![Figma](./images/exc1-2-4.png)
+        ![Figma](./images/exc1-2-3.png)
 
-* The left side panel will display the expanded tree structure. Select **_Form Item 02_**.
+3. Select the Yellow Slot.
 
-    ![Figma](./images/exc1-2-5.png)
+    * Find the yellow slot labeled “[swap one Form list item in here]”. Hold `Ctrl` (Windows) / `⌘` and **single-click** the item outside the text to select it.
 
-* The right side panel will show the properties of the selected yellow slot.
+        ![Figma](./images/exc1-2-4.png)
 
-    ![Figma](./images/exc1-2-6.png)
+    * The left side panel will display the expanded tree structure. If not already selected, select **Form Item 02**.
 
-4. **Swap the Component**  
-* At the top of the right panel, you'll see the component name **_Slot_**.
+        ![Figma](./images/exc1-2-5.png)
 
-    ![Figma](./images/exc1-2-7.png)
+    * The right side panel will show the properties of the selected yellow slot.
 
-* Click the dropdown to open the **_Swap Instance_** popup.
+        ![Figma](./images/exc1-2-6.png)
 
-* In the search field, type **_form item_**
+4. Swap the Component.
 
-* In the dropdown, select **_Created in this file_**.
+    * At the top of the right panel, you'll see the component name **Slot**.
 
-* Review the results and choose the item that matches your search term.
+        ![Figma](./images/exc1-2-7.png)
 
-    ![Figma](./images/exc1-2-8.png)
+    * Click the dropdown to open the **Swap Instance** popup.
 
-* Once selected, the slot will be replaced with the new component. You can see the visual update immediately on the frame.
+    * In the search field, type `form item`.
+
+    * In the dropdown, select **Created in this file**.
+
+    * Review the results and choose the item that matches your search term.
+
+        ![Figma](./images/exc1-2-8.png)
+
+    * Once selected, the slot will be replaced with the new component. You can see the visual update immediately on the frame.
 
 Continue to - [Exercise 1.3 - Edit the new form item in the object page](../ex1.3/README.md)
