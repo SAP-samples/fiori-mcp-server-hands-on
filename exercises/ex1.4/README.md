@@ -1,4 +1,4 @@
-# Create a Figma personal access token
+# Create a personal access token
 
 2. In the top left corner of your **design file**, click on **Drafts** to open the **Drafts folder** in a new web browser tab.
 

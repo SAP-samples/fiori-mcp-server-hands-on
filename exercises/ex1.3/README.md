@@ -32,4 +32,4 @@ The frame should now visually reflect the updated **Form Item** with the new lab
 
 ![Figma](./images/exc1-3-4.png)
 
-Continue to - [Exercise 1.4 - Create a Figma personal access token](../ex1.4/README.md)
+Continue to - [Exercise 1.4 - Create a personal access token](../ex1.4/README.md)
