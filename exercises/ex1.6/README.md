@@ -6,7 +6,9 @@ As a participant of the hands-on, you should already be setup with access to the
 
 1. Navigate to https://lcapteched.eu10.build.cloud.sap/lobby.
 
-2. Enter SBAS login credentials provided to you during the hands-on.
+2. Open the [Login File for SBAS](../../SBASLogin.txt) and pick the login data for your assigned number.
+
+3. Enter SBAS login credentials provided to you during the hands-on.
 
     <img src="./images/ex0img23.png" alt="Cline browser" width="60%"/>
 
