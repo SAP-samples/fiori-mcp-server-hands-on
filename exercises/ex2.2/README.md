@@ -20,7 +20,7 @@
     > [!Note] Cline may ask additional questions or give options to choose from, so here some hints
     > -  You want the LLM to create a new field in the database and schema
     > -  The sample data needs to be updated
-    > -  If asked the columns shall be placed next to the agency column in the list report 
+    > -  If asked the columns shall be placed next to the customer column in the list report 
 
 7. Switch to **Act mode**.
 
