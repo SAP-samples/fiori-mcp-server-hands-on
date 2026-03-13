@@ -48,7 +48,7 @@ Begin your exercises here. At the end of each section, there is a link to contin
   - [Exercise 1.1 - Adjust the buttons in the object page header](./exercises/ex1.1/)
   - [Exercise 1.2 - Add a form item in the object page](./exercises/ex1.2/)
   - [Exercise 1.3 - Edit the new form item in the object page](./exercises/ex1.3/)
-  - [Exercise 1.4 - Create a Figma personal access token](./exercises/ex1.4/)
+  - [Exercise 1.4 - Create a personal access token](./exercises/ex1.4/)
 
 - [Setup your AI Development Environment](./exercises/ex1.6/)
 
