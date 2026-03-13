@@ -94,7 +94,7 @@ As a participant of the hands-on, you should already be setup with access to the
 
 2. Click on **Configure MCP Servers** to open the configuration file.
 
-3. Copy the auth token you have created in the previous excersice to the marked position.
+3. Insert the personal access token that you created in the previous exercise at the marked position.
 
     ![Cline MCP server setting](./images/ex0img25.png)
 

@@ -13,7 +13,9 @@ Include technical key and business key for all entities.
 Use MCP servers and follow all rules.
 ```
 
-3. Now go to Figma, right-click on **Screen 1 - List Report** → **Copy/Paste as** → **Copy link to selection**.
+3. In the web browser tab with your Figma design, select **Screen 1 - List Report**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.
+
+   ![Figma](./images/exc2-0-2.png)
 
 4. Insert the link into the prompt text.
 
