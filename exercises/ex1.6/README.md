@@ -100,6 +100,8 @@ As a participant of the hands-on, you should already be setup with access to the
 
 5. Wait until the three MCP servers status' show "green" again. You can use the refresh icon, or restart button if shown to restart each server, in case of problems.
 
+6. Click on **Done** to complete this step
+
 ## Enable Auto-Approve settings for Cline
 
 1. Enable auto-approval for file modifications from Cline.
