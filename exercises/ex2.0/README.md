@@ -1,20 +1,20 @@
-## Create CAP Project and Fiori List Report App based on Figma Design
+# Create CAP Project and Fiori List Report App based on Figma Design
 
 1. In the Cline panel, choose **Plan Mode**.
 
     ![plan mode](./images/plan-mode.png)
 
-2. Copy and paste the following prompt into the task input:  
-   ```
-   Generate a new CAP project and SAP Fiori app based on Image @/process-travels.png 
-   Include technical key and business key for all entities.
-   Use MCP servers and follow all rules.
-    
-    <Copy and Paste Figma screenshot(png) for Screen 1 - List Report here> 
+2. Copy and paste the following prompt into the task input:
+    ```
+    Generate a new CAP project and SAP Fiori app based on Image @/process-travels.png 
+    Include technical key and business key for all entities.
+    Use MCP servers and follow all rules.
+     
+     <Copy and Paste Figma screenshot(png) for Screen 1 - List Report here> 
 
-   ```
+    ```
 
-3. Open Figma, right-click on "Screen 1 - List Report" -> Copy/Paste as -> Copy as PNG
+3. Open Figma, right-click on **Screen 1 - List Report** → **Copy/Paste as** → **Copy as PNG**.
 
 4. Press `Enter` to execute the task.
 
@@ -27,30 +27,30 @@
 
 6. Switch to **Act mode**. Cline executes the implementation plan. 
 
-7. After completing all the planned steps, the application should automatically open in your browser, displaying a travel list report application that matches the list report Image.
+7. After completing all the planned steps, the application should automatically open in your browser, displaying a travel list report application that matches the list report image.
 
-![application preview](./images/application-preview.png)
+    ![application preview](./images/application-preview.png)
 
 ## Troubleshoot
 
-1) Application preview does not open automatically in the browser:
+1. Application preview does not open automatically in the browser:
 
-   - Close task.
+    - Close task.
 
         <img src="./images/close-task.png" alt="close task" width="60%"/>
 
-   - Enter prompt `Preview application`
-   - If the issue still exists, then you can start watch script manually.
-      - Open the `package.json` file.
-      - Right click on watch script and select `Run Script`.
+    - Enter prompt `Preview application`.
+    - If the issue still exists, then you can start watch script manually:
+        - Open the `package.json` file.
+        - Right click on **watch** script and select **Run Script**.
 
-   ![watch script](./images/watch-script.png)
+        ![watch script](./images/watch-script.png)
 
-2) ENOSPC: System limit for number of file watchers reached.
+2. `ENOSPC: System limit for number of file watchers reached`:
 
     ![system limit error](./images/system-limit-error.png)
 
-    Add below script to package.json file
+    Add below script to `package.json` file:
 
     ```
     "cds": {
@@ -65,31 +65,40 @@
     ```
     ![pacakge json](./images/package-json-entry.png)
 
-3) If HTTP port 4004 is already in use, press `Enter` to restart preview with a different port number. 
-    
-    Note: Ensure that you either use 4004 or the system-assigned port for the preview. Check terminal instances and delete duplicate process running to preview application. 
+3. If HTTP port 4004 is already in use, press `Enter` to restart preview with a different port number.
+
+    > [!Note]
+    > Ensure that you either use 4004 or the system-assigned port for the preview. Check terminal instances and delete duplicate process running to preview application.
 
     ![4004 port used](./images/port4004used.png)
 
-4) If the application prompts for authentication, use username: `dummy` and password: `dummy`
+4. If the application prompts for authentication, use username: `dummy` and password: `dummy`.
 
-5) In the browser, If your application does not load or displays a blank page:
+5. In the browser, if your application does not load or displays a blank page:
 
-- Open Developer Tools in your browser to check the error message.
-  - Windows: Press `F12` or `Ctrl + Shift + I`
-  - Mac: Press `Cmd + Option + I`
+    - Open Developer Tools in your browser to check the error message:
+        - Windows: Press `F12` or `Ctrl + Shift + I`.
+        - Mac: Press `Cmd + Option + I`.
 
-    ![developer tools](./images/developer-tools.png)
+        ![developer tools](./images/developer-tools.png)
 
-- For a 404 error, enter the prompt:  
-    `Error: Could not load metadata: 404 Not Found`
-  - Press `Enter` and Cline will fix the service URL path issue.
+    - For a 404 error, enter the prompt:
+        ```
+        Error: Could not load metadata: 404 Not Found
+        ```
+        - Press `Enter` and Cline will fix the service URL path issue.
 
-- For a 200 error, enter the prompt:  
-    `Check if the EDM JSON expression ($edmJson) syntax is incorrect and validate it using CAP MCP.`
-- If the issue still exists, enter this prompt:
-    `Remove all instances of EDM JSON ($edmJson) expression syntax from the code.`
+    - For a 200 error, enter the prompt:
+        ```
+        Check if the EDM JSON expression ($edmJson) syntax is incorrect and validate it using CAP MCP.
+        ```
+    - If the issue still exists, enter this prompt:
+        ```
+        Remove all instances of EDM JSON ($edmJson) expression syntax from the code.
+        ```
 
----
+## Summary
+
+You have successfully created a CAP project with a Fiori List Report application based on the Figma design.
 
 Continue to - [Exercise 2.1 - Enable automatic data loading in List Report](../ex2.1/README.md)
