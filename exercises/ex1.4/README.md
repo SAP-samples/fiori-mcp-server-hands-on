@@ -33,4 +33,8 @@
 
 8. Leave the Figma web browser window with the personal access token open while you proceed to the next exercise.
 
+## Summary
+
+You have successfully created a personal access token for Figma.
+
 Continue to - [Setup your AI Development Environment](../ex1.6/README.md)

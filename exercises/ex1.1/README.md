@@ -42,7 +42,9 @@
 
         ![Figma](./images/exc1-1-7.png)
 
-Congratulations! The action buttons now display the correct labels, and your object page header is updated accordingly.
+## Summary
+
+You’ve successfully updated the object page header by adjusting the labels of the action buttons.
 
 ![Figma](./images/exc1-1-8.png)
 

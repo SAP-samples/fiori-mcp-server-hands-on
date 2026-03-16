@@ -1,6 +1,6 @@
 # Add Object Page for Booking Details
 
-1. In the Cline panel, close the previous task and start a new one. Select **Plan Mode**.
+1. In the Cline panel, close the previous task and start a new one. Select **Plan mode**.
 
 2. Enter the following prompt in the task input (don't execute yet):
     ```
