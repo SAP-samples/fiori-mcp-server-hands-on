@@ -8,7 +8,7 @@ Sl no | Troubleshooting Guide
  3 | [CDS Compile error](#3-cds-compilation-error) 
  4 | [How to reset and start from scratch](#4-how-to-reset-and-start-from-scratch)
  5 | [Model Claude-4.5 is Not Responding - Invalid API response](#5-model-anthropic-claude-45-sonnet-is-not-responding)
- 6 | [VS Code Terminal Timeout Issues](#6-vscode-terminal-timeout-issues)
+ 6 | [Code Terminal Timeout Issues](#6-terminal-timeout-issues)
  7 | [Cline Panel is Not Visible](#7-cline-panel-is-not-visible)
  8 | [Hard Reload Browser](#8-hard-reload-browser)
 
@@ -85,9 +85,9 @@ Sl no | Troubleshooting Guide
 
 ---
 
-### 6. Vscode Terminal Timeout Issues
+### 6. Terminal Timeout Issues
 
-- If the status in Cline remains pending and commands (such as `npm install`) are not executed in the VS Code terminal, toggle between **Act** and **Plan** mode, then click `Resume Task`.
+- If the status in Cline remains pending and commands (such as `npm install`) are not executed in the terminal, toggle between **Act** and **Plan** mode, then click `Resume Task`.
 
   ![terminal](./images/terminal-pending.png)
 
@@ -105,7 +105,7 @@ Sl no | Troubleshooting Guide
 
 ### 7. Cline Panel is Not Visible
 
-- If the Cline panel is not visible in VS Code:
+- If the Cline panel is not visible in development environment:
   - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the Command Palette.
   - Type `View: Show Cline` and press Enter.
   - The Cline panel will appear in the sidebar.
