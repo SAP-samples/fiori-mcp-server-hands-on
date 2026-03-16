@@ -50,7 +50,7 @@ Begin your exercises here. At the end of each section, there is a link to contin
   - [Exercise 1.3 - Edit the new form item in the object page](./exercises/ex1.3/)
   - [Exercise 1.4 - Create a personal access token](./exercises/ex1.4/)
 
-- [Setup your AI Development Environment](./exercises/ex1.6/)
+- [Set up your AI Development Environment](./exercises/ex1.6/)
 
 - [Exercise 2 - Create CAP Project and Fiori List Report App based on Image](./exercises/ex2.0/)
     - [Exercise 2.1 Enable automatic data loading in List Report](./exercises/ex2.1/)
