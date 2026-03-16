@@ -3,7 +3,7 @@
 1. Select the New Component.
 
     * You’ve just swapped the **Slot** with a **Form Item**. The new component should now be highlighted on the canvas.
-    * If it isn’t, hold `Ctrl` (Windows) / `⌘` (macOS) and **single-click** the component outside the text to select it manually.
+    * If it isn’t, hold `Ctrl` (Windows/Linux) / `⌘` (macOS) and **single-click** the component outside the text to select it manually.
 
 2. View Component Properties.
 
@@ -27,8 +27,9 @@
 
     * Press `Tab` on your keyboard to leave the field and see the result.
 
-Congratulations! You’ve successfully adjusted your design.
-The frame should now visually reflect the updated **Form Item** with the new label and value.
+## Summary
+
+You’ve successfully updated the form item with a new label and a new value.
 
 ![Figma](./images/exc1-3-4.png)
 

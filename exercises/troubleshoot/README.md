@@ -26,8 +26,8 @@ Sl no | Troubleshooting Guide
 
    ![mcp server connection](./images/mcp-tool-failure.png)
 
-   - Click on `Manage MCP Servers`
-   - Click on `Retry Connection`.
+   - Click on **Manage MCP Servers**.
+   - Click on **Retry Connection**.
    - Verify mcp servers are connected again.
 
    ![mcp server refresh](./images/mcp-server-refresh.png)
@@ -37,11 +37,12 @@ Sl no | Troubleshooting Guide
 ### 3. CDS Compilation error.
    - If you notice cds compilation error on console. copy and paste error message in to the task input.
 
-   ```
-   [ERROR] srv/travel-service.cds:5:10: Composition in draft-enabled entity can't lead to another entity with “@odata.draft.enabled” (in entity:“TravelService.Travel”/element:“to_Booking”)
-   ```
+      ```
+      [ERROR] srv/travel-service.cds:5:10: Composition in draft-enabled entity can't lead to another entity with “@odata.draft.enabled” (in entity:“TravelService.Travel”/element:“to_Booking”)
+      ```
 
-   - Press `Enter`
+   - Press `Enter`.
+
    - Cline removes `@odata.draft.enabled` annotation applied on booking entity from cds service.
 
 ---
@@ -49,25 +50,25 @@ Sl no | Troubleshooting Guide
 ### 4. How to reset and start from scratch.
    - Close the current task.
 
-   ![close task](./images/close-task.png)
+      ![close task](./images/close-task.png)
 
    - In the Explorer, right-click the project folder and select delete.
 
-   ![delete project](./images/delete-project.png)
+      ![delete project](./images/delete-project.png)
 
-   - Open the Cline panel. Click on `view all history`
+   - Open the Cline panel. Click on **view all history**.
 
-   ![view history](./images/view-history.png)
+      ![view history](./images/view-history.png)
 
-   - Click on `Delete All History` 
+   - Click on **Delete All History** 
 
-   ![delete history](./images/delete-history.png)
+      ![delete history](./images/delete-history.png)
 
-   - In the dialog, click `Delete Everything`.
+   - In the dialog, click **Delete Everything**.
 
-   ![delete everything](./images/delete-everything.png)
+      ![delete everything](./images/delete-everything.png)
 
-   - Then, in the Cline settings panel (top right corner), click `Done`.
+   - Then, in the Cline settings panel (top right corner), click **Done**.
 
 ---
 
@@ -75,11 +76,11 @@ Sl no | Troubleshooting Guide
 
    ![model error](./images/model-error.png)
 
-   - If the Claude 4.5 model throws Invalid API response error. Change model to the `anthropic-claude-4.0-sonnet`.
+   - If the Claude 4.5 model throws Invalid API response error. Change model to the **anthropic-claude-4.0-sonnet**.
    - Retry your task.
-   - If the issue still exists, try with model `anthropic-claude-3.7-sonnet` or  `anthropic-claude-3.5-sonnet`.
+   - If the issue still exists, try with model **anthropic-claude-3.7-sonnet** or  **anthropic-claude-3.5-sonnet**.
 
-   - If the issue still exists, then you can close the current Cline task and change model to `gemini-2.5-pro`.
+   - If the issue still exists, then you can close the current Cline task and change model to **gemini-2.5-pro**.
 
    ![close task](./images/close-task.png)
 
@@ -87,7 +88,7 @@ Sl no | Troubleshooting Guide
 
 ### 6. Terminal Timeout Issues
 
-- If the status in Cline remains pending and commands (such as `npm install`) are not executed in the terminal, toggle between **Act** and **Plan** mode, then click `Resume Task`.
+- If the status in Cline remains pending and commands (such as `npm install`) are not executed in the terminal, toggle between **Act** and **Plan** mode, then click **Resume Task**.
 
   ![terminal](./images/terminal-pending.png)
 
@@ -95,9 +96,9 @@ Sl no | Troubleshooting Guide
 
   ![resume task](./images/task-resume.png)
 
-   - If the issue still exists, then you can close the current Cline task.
-   - Reopen the same task again.
-   - Resume from where it left off.
+- If the issue still exists, then you can close the current Cline task.
+- Reopen the same task again.
+- Resume from where it left off.
 
    ![close task](./images/close-task.png)
 
@@ -105,9 +106,9 @@ Sl no | Troubleshooting Guide
 
 ### 7. Cline Panel is Not Visible
 
-- If the Cline panel is not visible in development environment:
-  - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the Command Palette.
-  - Type `View: Show Cline` and press Enter.
+- If the Cline panel is not visible in the development environment:
+  - Press `Ctrl`+ `Shift` + `P` (Windows/Linux) or `⌘` + `Shift` + `P` (Mac) to open the Command Palette.
+  - Type `View: Show Cline` and press `Enter`.
   - The Cline panel will appear in the sidebar.
 
   ![command palette](./images/command-palette-cline.png)

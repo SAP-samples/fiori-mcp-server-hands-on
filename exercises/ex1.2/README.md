@@ -20,7 +20,7 @@
 
 3. Select the Yellow Slot.
 
-    * Find the yellow slot labeled “[swap one Form list item in here]”. Hold `Ctrl` (Windows) / `⌘` and **single-click** the item outside the text to select it.
+    * Find the yellow slot labeled “[swap one Form list item in here]”. Hold `Ctrl` (Windows/Linux) / `⌘` and **single-click** the item outside the text to select it.
 
         ![Figma](./images/exc1-2-4.png)
 
@@ -49,5 +49,9 @@
         ![Figma](./images/exc1-2-8.png)
 
     * Once selected, the slot will be replaced with the new component. You can see the visual update immediately on the frame.
+
+## Summary
+
+You’ve successfully replaced the slot with a form item.
 
 Continue to - [Exercise 1.3 - Edit the new form item in the object page](../ex1.3/README.md)

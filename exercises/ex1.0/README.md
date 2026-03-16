@@ -2,7 +2,9 @@
 
 1. Open **[Figma](https://www.figma.com/login)** in a browser, which will ask you to login.
 
-2. Open the **[Login File for Figma](../../figmaLogin.txt)** and pick the login data for your assigned number. Enter the data in the Figma browser window to complete your login.
+2. Open the **[Login File for Figma](../../figmaLogin.txt)** and pick the login data for your assigned number.
+
+3. Enter the data in the Figma browser window to complete your login.
 
 # Execute the following steps to open your design
 

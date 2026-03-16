@@ -4,7 +4,7 @@
 
     <img src="../ex2.0/images/close-task.png" alt="close task" width="60%"/>
 
-2. Select **Plan Mode**.
+2. Select **Plan mode**.
 
     ![plan mode](../ex2.0/images/plan-mode.png)
 
