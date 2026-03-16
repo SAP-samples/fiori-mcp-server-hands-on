@@ -67,7 +67,7 @@ As a participant of the hands-on, you should already be setup with access to the
 
     <img src="./images/ex0img7.png" alt="cline choose api key" width="70%"/>
 
-3. Select API Provider `SAP AI Core`, select model `anthropic--claude-sonnet-4`.
+3. Select API Provider `SAP AI Core`, select model `anthropic--claude-sonnet-4.5`.
 
     <img src="images/ex0img8.png" alt="image" width="40%"/>
 
