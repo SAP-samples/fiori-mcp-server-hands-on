@@ -10,7 +10,7 @@
     Use the available MCP servers.
     ```
 
-3. In the web browser tab with your Figma design, select **Screen 3 - Object Page**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.
+3. In the web browser tab with your Figma Design, select **Screen 3 - Object Page**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.
 
 4. Insert the link into the prompt text.
 

@@ -73,4 +73,4 @@
 
 You have successfully added an analytical column chart displaying average price per destination to the List Report page.
 
-Continue to - [Exercise 3.0 - Modify travel object page based on Image](../ex3.0/README.md)
+Continue to - [Exercise 3.0 - Modify travel object page based on Figma Design](../ex3.0/README.md)

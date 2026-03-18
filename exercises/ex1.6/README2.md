@@ -202,4 +202,4 @@ With the setup procedure done, you now have completed:
 - Creation of your development space
 - Configure AI client - Cline
 
-Continue to - [Exercise 2 - Create fiori app based on figma design](../ex2.0/README.md)
+Continue to - [Exercise 2 - Create fiori app based on Figma Design](../ex2.0/README.md)

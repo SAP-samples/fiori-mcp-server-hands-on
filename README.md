@@ -52,12 +52,12 @@ Begin your exercises here. At the end of each section, there is a link to contin
 
 - [Set up your AI Development Environment](./exercises/ex1.6/)
 
-- [Exercise 2 - Create CAP Project and Fiori List Report App based on Image](./exercises/ex2.0/)
+- [Exercise 2 - Create CAP Project and Fiori List Report App based on Figma Design](./exercises/ex2.0/)
     - [Exercise 2.1 Enable automatic data loading in List Report](./exercises/ex2.1/)
     - [Exercise 2.2 Add new column destination to list report table](./exercises/ex2.2/)
     - [Exercise 2.3 Add Analytical chart to list report page](./exercises/ex2.3/)
 
-- [Exercise 3 - Modify travel object page based on Image](./exercises/ex3.0/)
+- [Exercise 3 - Modify travel object page based on Figma Design](./exercises/ex3.0/)
     - [Exercise 3.1 Add Custom Section with RichTextEditor Building Block](./exercises/ex3.1/)
 
 - [Exercise 4 - Add Object Page for Booking Details](./exercises/ex4.0/)
