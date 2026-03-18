@@ -24,8 +24,9 @@ As a participant of the hands-on tutorial, you should already be setup with acce
 
     ![Restart Dev Space](images/ex0img4a.png)
 
-    > [!Note]
-    > For this hands-on session, please use only the **AgenticAppDevelopment** development space.
+
+> [!NOTE]
+> For this hands-on session, please use only the **AgenticAppDevelopment** development space.
 
 2. Once running, click the development space name to open it. This can take some time.
 
