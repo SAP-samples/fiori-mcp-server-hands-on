@@ -1,4 +1,4 @@
-# Modify travel object page based on Image
+# Modify travel object page based on Figma Design
 
 1. Close previous task.
 
@@ -17,7 +17,7 @@
     Add mock data for the bookings table.
     ```
 
-4. In the web browser tab with your Figma design, select **Screen 2 - Object Page**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.
+4. In the web browser tab with your Figma Design, select **Screen 2 - Object Page**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.
 
 5. Insert the link into the prompt text.
 
@@ -33,24 +33,25 @@
 
 11. After completion, verify the object page in the application preview:
     - Verify object page header contains both title and description.
-    - Make sure fields in the **General Information** are arranged as per image.
+    - Make sure fields in the **General Information** are arranged as per the Figma Design.
 
     ![travel object page](./images/travel-objpage.png)
 
 ## Troubleshoot
 
-1. Update the Object Page Title and Description based on the image. Use the following prompt:
+1. Update the Object Page Title and Description based on the Figma Design. Use the following prompt:
     ```
     Set the travel description as the object page title and display the travel title below it.
     ```
 
-2. Some fields in the **General Information** section are missing. Use the following prompt:
+2. Some fields in the **General Information** section are missing. Use the following prompt and insert the Figma Design link into the prompt text:
     ```
-    Arrange or add fields in the General Information section as shown in the image @/travel-object-page.png.
+    Arrange or add fields in the General Information section as shown in figma design from this link
+    <insert_link_here>.
     ```
 
 ## Summary
 
-You have successfully modified the travel object page based on the Figma design, including the bookings table section.
+You have successfully modified the travel object page based on the Figma Design, including the bookings table section.
 
 Continue to - [Exercise 3.1 - Add Custom Section with RichTextEditor Building Block](../ex3.1/README.md)

@@ -120,5 +120,5 @@ As a participant of the hands-on tutorial, you should already be setup with acce
 
 You have successfully set up your AI development environment with SAP Business Application Studio and configured Cline.
 
-Continue to - [Exercise 2.0 - Create CAP Project and Fiori List Report App based on Figma design](../ex2.0/README.md)
+Continue to - [Exercise 2.0 - Create CAP Project and Fiori List Report App based on Figma Design](../ex2.0/README.md)
 
