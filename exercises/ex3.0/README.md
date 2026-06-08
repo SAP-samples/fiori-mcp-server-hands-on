@@ -1,57 +1,37 @@
-# Modify travel object page based on Figma Design
+# Add Object Page for Booking Details
 
-1. Close previous task.
+1. Create a new chat.
 
-    <img src="../ex2.0/images/close-task.png" alt="close task" width="60%"/>
+    <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
 
-2. Select **Plan mode**.
+2. Download [bookings-object-page.png](../../bookings-object-page.png) image to your local disk.
 
-    ![plan mode](../ex2.0/images/plan-mode.png)
+3. Upload Image to the copilot context.
 
-3. Enter the following prompt in the task input (don't execute yet):
+    ![context](../ex1.0/images/context.png)
+
+3. Enter the following prompt in the task input:
     ```
-    Modify the travels object page based on the figma design from this link
-    <insert_link_here>
-    
-    The object page shall include a bookings table section.
-    Add mock data for the bookings table.
+    Create a booking detail object page based on the Image attached to the context.
+
+    Create implementation plan first, then proceed with confirmation.
+    Consult MCP servers.
     ```
 
-4. In the web browser tab with your Figma Design, select **Screen 2 - Object Page**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.
+3. Execute the task.
+    ![booking object page](./images/execute-booking-objpage.png)
 
-5. Insert the link into the prompt text.
+7. After completion, check the booking object page in the application preview.
 
-6. Press `Enter` to start the task.
-
-7. Cline will generate an **Implementation Plan**.
-
-8. Review the plan once it's ready.
-
-9. Switch to **Act mode**.
-
-10. Cline will execute the implementation plan.
-
-11. After completion, verify the object page in the application preview:
-    - Verify object page header contains both title and description.
-    - Make sure fields in the **General Information** are arranged as per the Figma Design.
-
-    ![travel object page](./images/travel-objpage.png)
+    ![booking object page](./images/booking-objpage.png)
 
 ## Troubleshoot
 
-1. Update the Object Page Title and Description based on the Figma Design. Use the following prompt:
-    ```
-    Set the travel description as the object page title and display the travel title below it.
-    ```
-
-2. Some fields in the **General Information** section are missing. Use the following prompt and insert the Figma Design link into the prompt text:
-    ```
-    Arrange or add fields in the General Information section as shown in figma design from this link
-    <insert_link_here>.
-    ```
+- The booking table doesn't have navigation. Remind the LLM to add the new page to the app.
+- Error `Composition in draft-enabled entity can't lead to another entity with "@odata.draft.enabled" (in entity:"TravelService.Travel"/element:"Bookings")`. Copy and paste the above error message, and Copilot will fix the issue.
+- Section **Booking Extras** is missing in the booking object page. Execute the prompt: `booking extras table section is missing`.
+- The Booking Extras table has no data. Execute the prompt: `add mock data for booking extras`.
 
 ## Summary
 
-You have successfully modified the travel object page based on the Figma Design, including the bookings table section.
-
-Continue to - [Exercise 3.1 - Add Custom Section with RichTextEditor Building Block](../ex3.1/README.md)
+Congratulations, you have completed all exercises!

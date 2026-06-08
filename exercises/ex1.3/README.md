@@ -1,36 +1,34 @@
-# Edit the new form item in the object page
+# Add an analytical column chart to the List Report
 
-1. Select the New Component.
+1. Create a new chat.
 
-    * You’ve just swapped the **Slot** with a **Form Item**. The new component should now be highlighted on the canvas.
-    * If it isn’t, hold `Ctrl` (Windows/Linux) / `⌘` (macOS) and **single-click** the component outside the text to select it manually.
+    <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
 
-2. View Component Properties.
+3. Enter the prompt in the task input:
+    ```
+    Add an analytical column chart to the List Report (ALP) that displays the average price per destination.
+    Configure Price as an aggregated property in the analytical chart,
+    and use the Views configuration to display the analytical chart above the table.
+    Create implementation plan first, then proceed with confirmation.
+    Consult Fiori MCP server.
+    ```
 
-    * At the top of the right side panel, you’ll now see the properties of the **Form Item** component—specifically **Label** and **Value**.
+4. Execute the prompt. Copilot will consult the Fiori MCP server to access documentation on how to implement analytical charts.
 
-        ![Figma](./images/exc1-3-1.png)
+    <img src="./images/doc-search-fiori-mcp.png" alt="copilot" width="60%"/>
 
-3. Edit the Label.
+8. After completion, verify that both the analytical chart and table are displayed on the list report page.
 
-    * Locate the **Label** field, which is marked with an edit icon. Click in the field and type `Flight Price:`.
+    ![analytical chart](./images/analytical-chart.png)
 
-        ![Figma](./images/exc1-3-2.png)
+## Troubleshooting
 
-    * Press `Tab` on your keyboard to leave the field and see the result.
+- If the chart does not appear in the list report, enter the prompt: `Use fiori mcp to verify correct manifest configuration to display chart above table`.
 
-4. Edit the Value.
-
-    * Locate the **Value** field, which is also marked with an edit icon. Click in the field and type `1.911,00 AUD`.
-
-        ![Figma](./images/exc1-3-3.png)
-
-    * Press `Tab` on your keyboard to leave the field and see the result.
+- If you see `[50017] - Invalid data binding`, enter the prompt: `Invalid data binding with chart`.
 
 ## Summary
 
-You’ve successfully updated the form item with a new label and a new value.
+You have successfully added an analytical column chart displaying average price per destination to the List Report page.
 
-![Figma](./images/exc1-3-4.png)
-
-Continue to - [Exercise 1.4 - Create a personal access token](../ex1.4/README.md)
+Continue to - [Exercise 2.0 - Modify travel object page based on Image](../ex2.0/README.md)
