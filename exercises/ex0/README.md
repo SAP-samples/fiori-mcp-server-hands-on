@@ -1,6 +1,6 @@
 # Getting Started - Set up your AI Development Environment
 
-As a participant of the hands-on tutorial, you should already be setup with access to the SAP Business Application Studio landscape below which you can use as your development environment.
+As a participant of the hands-on tutorial, you should already be set up with access to the SAP Business Application Studio landscape below which you can use as your development environment.
 
 ## Access SAP Business Application Studio (SBAS)
 
@@ -76,13 +76,15 @@ As a participant of the hands-on tutorial, you should already be setup with acce
 
 6. Download Image [manage-travels-list-report.png](../../manage-travels-list-report.png) to your local disk.
 
+    ![image](images/download-image.png)
+
 7. Drag and drop downloaded image to project explorer
 
     ![image](images/project-explorer.png)
 
-## Configure Github Copilot (AI Client)
+## Configure GitHub Copilot (AI Client)
 
-1. Open **Github Copilot**.
+1. Open **GitHub Copilot**.
 
     ![copilot](./images/ex0img32.png)
 
@@ -93,7 +95,7 @@ As a participant of the hands-on tutorial, you should already be setup with acce
 
 ## Summary
 
-You have successfully set up your AI development environment with SAP Business Application Studio and configured github Copilot.
+You have successfully set up your AI development environment with SAP Business Application Studio and configured GitHub Copilot.
 
 Continue to - [Exercise 1.0 - Create CAP Project and Fiori List Report App based on Image](../ex1.0/README.md)
 

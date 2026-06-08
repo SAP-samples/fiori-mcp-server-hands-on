@@ -10,7 +10,7 @@ You will gain comprehensive knowledge of AI assisted full-stack development, and
 
 ## Using AI during App Development
 
-We are using Github Copilot as AI client within SAP Business Application Studio (SBAS) and Anthropic claude-4.5-sonnet LLM (Large Language Model) throughout the exercises. When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. Github Copilot and the choosen LLM are powerful assistants for problem resolution.
+We are using GitHub Copilot as AI client within SAP Business Application Studio (SBAS) and Anthropic Claude 4.5 Sonnet LLM (Large Language Model) throughout the exercises. When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. GitHub Copilot and the chosen LLM are powerful assistants for problem resolution.
 
 ### General steps in case of issues:
 
@@ -31,12 +31,12 @@ We are using Github Copilot as AI client within SAP Business Application Studio 
 
 3. Using the LLM to solve an issue
     - The LLM occasionally makes mistakes, or forgets required steps leading to error situations
-    - But the LLM can read the terminal output and react to API reponses, and correct error visible there
+    - But the LLM can read the terminal output and react to API responses, and correct errors visible there
     - Other issues, like from browser console output, can be resolved by copy-pasting the full error message into the chat and ask for a fix in a prompt
     - LLM works best when exact messages are provided rather than manual descriptions.
 
 4. Use Restore Points if Needed
-    - If a solution strategy does not work, you can always restore the files and chat to a previous checkpoint using Github Copilot’s restore functionality.
+    - If a solution strategy does not work, you can always restore the files and chat to a previous checkpoint using GitHub Copilot’s restore functionality.
 
 5. Don’t be afraid to retry an exercise or step after restoring to a checkpoint.
 

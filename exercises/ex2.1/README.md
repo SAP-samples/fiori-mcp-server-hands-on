@@ -6,7 +6,7 @@
 
 2. Enter the following prompt in the task input:
     ```
-    Your task is to visualize the description field of the trip as an rich text editor on the object page of the travel management app. Implement in two steps:
+    Your task is to visualize the description field of the trip as a rich text editor on the object page of the travel management app. Implement in two steps:
      1. Add a custom section at the last position of the object page
      2. Use the rich text editor building block in the new section to show the description field. Ensure each button group for the Rich text editor has an ID
     Create implementation plan first, then proceed with confirmation.
@@ -18,13 +18,13 @@
 
     ![buildingblock](./images/buildingblock-imp-plan.png)
 
-5. After completion, confirm that the travel description section is visible on the travel object page.
+4. After completion, verify that the travel description section is visible on the travel object page.
 
-6. Click the **Edit** button in the top right corner.
+5. Click the **Edit** button in the top right corner.
 
-7. In the travel description section, select some text and apply bold formatting.
+6. In the travel description section, select some text and apply bold formatting.
 
-8. Click **Save** and verify that the object has been saved successfully.
+7. Click **Save** and verify that the object has been saved successfully.
 
     ![buildingblock](./images/buildingblock.png)
 

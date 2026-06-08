@@ -71,7 +71,7 @@
         }
     }
     ```
-    ![pacakge json](./images/package-json-entry.png)
+    ![package json](./images/package-json-entry.png)
 
 3. If HTTP port 4004 is already in use, press `Enter` to restart preview with a different port number.
 

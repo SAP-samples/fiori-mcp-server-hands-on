@@ -4,7 +4,7 @@
 
     <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
 
-3. Enter the prompt in the task input:
+2. Enter the prompt in the task input:
     ```
     Add an analytical column chart to the List Report (ALP) that displays the average price per destination.
     Configure Price as an aggregated property in the analytical chart,
@@ -13,11 +13,11 @@
     Consult Fiori MCP server.
     ```
 
-4. Execute the prompt. Copilot will consult the Fiori MCP server to access documentation on how to implement analytical charts.
+3. Execute the prompt. Copilot will consult the Fiori MCP server to access documentation on how to implement analytical charts.
 
     <img src="./images/doc-search-fiori-mcp.png" alt="copilot" width="60%"/>
 
-8. After completion, verify that both the analytical chart and table are displayed on the list report page.
+4. After completion, verify that both the analytical chart and table are displayed on the list report page.
 
     ![analytical chart](./images/analytical-chart.png)
 

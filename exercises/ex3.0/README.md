@@ -6,11 +6,13 @@
 
 2. Download [bookings-object-page.png](../../bookings-object-page.png) image to your local disk.
 
+    ![download](./images/download-image.png)
+
 3. Upload Image to the copilot context.
 
     ![context](../ex1.0/images/context.png)
 
-3. Enter the following prompt in the task input:
+4. Enter the following prompt in the task input:
     ```
     Create a booking detail object page based on the Image attached to the context.
 
@@ -18,10 +20,10 @@
     Consult MCP servers.
     ```
 
-3. Execute the task.
+5. Execute the task.
     ![booking object page](./images/execute-booking-objpage.png)
 
-7. After completion, check the booking object page in the application preview.
+6. After completion, check the booking object page in the application preview.
 
     ![booking object page](./images/booking-objpage.png)
 

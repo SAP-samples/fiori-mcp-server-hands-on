@@ -6,6 +6,8 @@
 
 2. Download [manage-travels-object-page.png](../../manage-travels-object-page.png) image to your local disk.
 
+    ![download](./images/download-image.png)
+
 3. Upload Image to the copilot context.
 
     ![context](../ex1.0/images/context.png)
@@ -25,9 +27,9 @@
 5. Execute the task.
     ![travel object page](./images/execute-objpage.png)
 
-7. After completion, verify the object page in the application preview:
+6. After completion, verify the object page in the application preview:
     - Verify the object page header contains both title and description.
-    - Make sure the fields in the **General Information** section are arranged as per the Image uploded to the context.
+    - Make sure the fields in the **General Information** section are arranged as per the Image uploaded to the context.
 
     ![travel object page](./images/travel-objpage.png)
 
