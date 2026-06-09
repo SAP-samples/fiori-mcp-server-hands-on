@@ -34,10 +34,12 @@
 
 ## Troubleshoot
 
-- The booking table doesn't have navigation. Remind the LLM to add the new page to the app.
-- Error `Composition in draft-enabled entity can't lead to another entity with "@odata.draft.enabled" (in entity:"TravelService.Travel"/element:"Bookings")`. Copy and paste the above error message, and Copilot will fix the issue.
+- Booking Extras table does not appear below General Information section.
+    Execute the prompt: `Change section layout to page for booking object page`.
+- The booking table doesn't have navigation to object page. Execute the prompt `Ensure manifest configuration for new object page`.
 - Section **Booking Extras** is missing in the booking object page. Execute the prompt: `booking extras table section is missing`.
 - The Booking Extras table has no data. Execute the prompt: `add mock data for booking extras`.
+- Error `Composition in draft-enabled entity can't lead to another entity with "@odata.draft.enabled" (in entity:"TravelService.Travel"/element:"Bookings")`. Copy and paste the above error message, and Copilot will fix the issue.
 
 ## Summary
 

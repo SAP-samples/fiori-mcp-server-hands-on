@@ -41,7 +41,7 @@
 ## Troubleshoot
 
 - The booking table does not appear below General Information section.
-    Execute the prompt: `Bookings section should appear below General information section`.
+    Execute the prompt: `Change section layout to page for travel object page`.
 
 ## Summary
 
