@@ -37,11 +37,11 @@ As a participant of the hands-on tutorial, you should already be set up with acc
     ![image](images/ex0img5.png)
 
 ## Install SAP Fiori MCP Server
-- Open new terminal
+- Open a new terminal.
 
     ![image](images/open-terminal.png)
 
-- execute command 
+- Execute the following command: 
     ```
     npm i -g @sap-ux/fiori-mcp-server@0.7.2
 
@@ -51,7 +51,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
 ## Verify MCP servers
 
-- Verify below listed mcp servers are installed
+- Verify that the MCP servers listed below are installed.
 
     ![mcp servers](./images/mcp-servers.png)
     
@@ -82,7 +82,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/download-image.png)
 
-7. Drag and drop downloaded image to project explorer
+7. Drag and drop the downloaded image to the project explorer.
 
     ![image](images/project-explorer.png)
 

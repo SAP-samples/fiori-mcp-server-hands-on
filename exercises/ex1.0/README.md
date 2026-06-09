@@ -46,13 +46,19 @@
 
 9. After completing all the to-dos/tasks, Copilot confirms the successful creation of the CAP project and Fiori app.
 
-10. Execute the prompt `/sap-fiori preview application`. The application should automatically open in your browser, displaying a travel list report application that matches the list report Image.
+10. The application should automatically open in your browser, displaying a travel list report application that matches the list report Image.
 
     ![application preview](./images/application-preview.png)
 
 ## Troubleshoot
 
 1. Application preview does not open automatically in the browser:
+
+    - Right-click on the Fiori app and select the watch script. **Important:** Keep the application preview terminal running—do not close it.
+
+        ![preview app](./images/preview-application.png)
+
+        ![watch travel](./images/watch-travel.png)
 
     - You can start the watch script manually:
         - Open the **package.json** file.
@@ -64,7 +70,7 @@
 
     ![system limit error](./images/system-limit-error.png)
 
-    Add below script to **package.json** file:
+    Add the following script to the **package.json** file:
 
     ```
     "cds": {

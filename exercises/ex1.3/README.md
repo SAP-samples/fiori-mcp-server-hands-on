@@ -15,9 +15,13 @@
 
 3. Execute the prompt. Copilot will consult the Fiori MCP server to access documentation on how to implement analytical charts.
 
+    <img src="./images/imp-plan.png" alt="copilot" width="60%"/>
+
+4. Confirm the implementation plan by responding with "Yes" or "Proceed".
+
     <img src="./images/doc-search-fiori-mcp.png" alt="copilot" width="60%"/>
 
-4. After completion, verify that both the analytical chart and table are displayed on the list report page.
+5. After completion, verify that both the analytical chart and table are displayed on the list report page.
 
     ![analytical chart](./images/analytical-chart.png)
 

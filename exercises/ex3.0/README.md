@@ -4,11 +4,11 @@
 
     <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
 
-2. Download [bookings-object-page.png](../../bookings-object-page.png) image to your local disk.
+2. Download the [bookings-object-page.png](../../bookings-object-page.png) image to your local disk.
 
     ![download](./images/download-image.png)
 
-3. Upload Image to the copilot context.
+3. Upload the image to the Copilot context.
 
     ![context](../ex1.0/images/context.png)
 
@@ -21,9 +21,14 @@
     ```
 
 5. Execute the task.
+
+    ![second object page](./images/imp-plan.png)
+
+6. Confirm the implementation plan by responding with "Yes" or "Proceed".
+
     ![booking object page](./images/execute-booking-objpage.png)
 
-6. After completion, check the booking object page in the application preview.
+7. After completion, check the booking object page in the application preview.
 
     ![booking object page](./images/booking-objpage.png)
 

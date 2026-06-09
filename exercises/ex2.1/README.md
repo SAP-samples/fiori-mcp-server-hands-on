@@ -16,15 +16,19 @@
 
 3. Execute the task.
 
+    ![buildingblock](./images/imp-plan.png)
+
+4. Confirm the implementation plan by responding with "Yes" or "Proceed".
+
     ![buildingblock](./images/buildingblock-imp-plan.png)
 
-4. After completion, verify that the travel description section is visible on the travel object page.
+5. After completion, verify that the travel description section is visible on the travel object page.
 
-5. Click the **Edit** button in the top right corner.
+6. Click the **Edit** button in the top right corner.
 
-6. In the travel description section, select some text and apply bold formatting.
+7. In the travel description section, select some text and apply bold formatting.
 
-7. Click **Save** and verify that the object has been saved successfully.
+8. Click **Save** and verify that the object has been saved successfully.
 
     ![buildingblock](./images/buildingblock.png)
 
