@@ -44,7 +44,7 @@ We are using GitHub Copilot as AI client within SAP Business Application Studio 
 
 Begin your exercises here. At the end of each section, there is a link to continue to the next section.
 
-- [Set up your AI Development Environment](./exercises/ex0/)
+- [Getting Started - Set up your AI Development Environment](./exercises/ex0/)
 
 - [Exercise 1 - Create CAP Project and Fiori List Report App based on Image](./exercises/ex1.0/)
     - [Exercise 1.1 Enable automatic data loading in List Report](./exercises/ex1.1/)
