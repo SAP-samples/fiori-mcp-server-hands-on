@@ -38,6 +38,11 @@
 
     ![travel object page](./images/travel-objpage.png)
 
+## Troubleshoot
+
+- The booking table does not appear below General Information section.
+    Execute the prompt: `Bookings section should appear below General information section`.
+
 ## Summary
 
 You have successfully modified the travel object page based on the Image, including the bookings table section.
