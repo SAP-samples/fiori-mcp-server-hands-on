@@ -6,7 +6,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
 1. Open https://lcapteched.eu10.build.cloud.sap/lobby in a new browser window or tab, which will ask you to login.
 
-2. Open the [Login File for SBAS](../../SBASLogin.txt) and pick the login data for your assigned number.
+2. The moderator will provide you with login credentials.
 
 3. Enter the data in the SBAS browser window or tab to complete your login.
 
@@ -41,7 +41,11 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/open-terminal.png)
 
-- execute command `npm i -g @sap-ux/fiori-mcp-server`
+- execute command 
+    ```
+    npm i -g @sap-ux/fiori-mcp-server@0.7.2
+
+    ```
 
     ![image](images/install-fiori-mcp.png)
 
@@ -74,7 +78,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/ex0img28.png)
 
-6. Download Image [manage-travels-list-report.png](../../manage-travels-list-report.png) to your local disk.
+6. Download Image <a href="../../manage-travels-list-report.png" target="_blank" rel="noopener noreferrer">manage-travels-list-report.png</a> to your local disk.
 
     ![image](images/download-image.png)
 
