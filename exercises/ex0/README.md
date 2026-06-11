@@ -26,7 +26,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
 
 > [!NOTE]
-> For this hands-on session, please use only the **AgenticAppDevelopment** development space.
+> If the **AgenticAppDevelopment** dev space is not available, please create a new dev space(Kind: full stack cloud application).
 
 2. Once running, click the development space name to open it. This can take some time.
 
@@ -77,6 +77,9 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 5. Enable **Clipboard access** for the SBAS instance in the Chrome browser.
 
     ![image](images/ex0img28.png)
+
+> [!NOTE]
+> Ensure that the Projects folder is empty before proceeding.
 
 6. Download Image <a href="../../manage-travels-list-report.png" target="_blank" rel="noopener noreferrer">manage-travels-list-report.png</a> to your local disk.
 
