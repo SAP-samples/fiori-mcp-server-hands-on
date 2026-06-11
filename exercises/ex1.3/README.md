@@ -25,8 +25,8 @@
     - Configure the `UI.Chart` with dynamic measures
     - Update the manifest with views configuration
 
-    > [!NOTE]
-    > If the plan doesn't match, refine your plan by specifying each requirement individually.
+> [!NOTE]
+> If the plan doesn't match, refine your plan by specifying each requirement individually.
 
 6. Confirm the implementation plan by responding with "Yes" or "Proceed" to continue.
 
