@@ -36,6 +36,10 @@
 
     ![analytical chart](./images/analytical-chart.png)
 
+    ----
+    OR
+    ----
+
     ![analytical chart2](./images/analytical-chart2.png)
 
 ## Troubleshooting
