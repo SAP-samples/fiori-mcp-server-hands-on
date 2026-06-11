@@ -54,12 +54,20 @@
 
 1. Application preview does not open automatically in the browser:
 
+    - Stop any running processes using `Ctrl+C`, then delete all terminal windows, including any hidden ones.
+
+        ![close terminal](./images/close-terminal.png)
+
+    **Option 1:**
+    
     - Right-click on the Fiori app and select the watch script. **Important:** Keep the application preview terminal running—do not close it.
 
         ![preview app](./images/preview-application.png)
 
         ![watch travel](./images/watch-travel.png)
 
+    **Option 2:**
+    
     - You can start the watch script manually:
         - Open the **package.json** file.
         - Right-click on the **watch** script and select **Run Script**.
