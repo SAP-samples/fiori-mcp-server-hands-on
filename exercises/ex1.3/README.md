@@ -28,13 +28,15 @@
 > [!NOTE]
 > If the plan doesn't match, refine your plan by specifying each requirement individually.
 
-6. Confirm the implementation plan by responding with "Yes" or "Proceed" to continue.
+5. Confirm the implementation plan by responding with "Yes" or "Proceed" to continue.
 
     <img src="./images/doc-search-fiori-mcp.png" alt="copilot" width="60%"/>
 
-5. After completion, verify that both the analytical chart and table are displayed on the list report page.
+6. After completion, verify that the analytical chart and table are displayed on the list report page. They may appear in separate views or one below the other.
 
     ![analytical chart](./images/analytical-chart.png)
+
+    ![analytical chart2](./images/analytical-chart2.png)
 
 ## Troubleshooting
 
