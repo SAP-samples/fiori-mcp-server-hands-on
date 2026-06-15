@@ -3,7 +3,7 @@
 1. In Copilot, choose **Agent mode**.
     ![agent mode](./images/agent-mode.png)
 
-2. Upload Image (manage-travels-list-report.png) to the copilot context and execute the task.
+2. Click on `Add Context...` to upload Image (manage-travels-list-report.png) to the copilot context and execute the task.
 
     ![context](./images/context.png)
 
