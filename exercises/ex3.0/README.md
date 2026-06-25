@@ -28,7 +28,7 @@
 
     ![booking object page](./images/execute-booking-objpage.png)
 
-7. After completion, check the booking object page in the application preview.
+7. After completion, navigate to the Travel object page and click on a row in the bookings table to open the booking object page. Verify the booking object page appears correctly in the application preview.
 
     ![booking object page](./images/booking-objpage.png)
 
