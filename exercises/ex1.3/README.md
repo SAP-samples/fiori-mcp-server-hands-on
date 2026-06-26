@@ -12,10 +12,10 @@
         - Use dynamic measure to configure chart.
         - Use the Views configuration to display both analytical chart and table.
     Create implementation plan first, then proceed with confirmation.
-    Consult Fiori MCP server.
+    Consult sap-fiori-analytical-chart skill.
     ```
 
-3. Execute the prompt. Copilot will consult the Fiori MCP server to access documentation on how to implement analytical charts.
+3. Execute the prompt. Copilot will consult the sap-fiori-analytical-chart skill on how to implement analytical charts.
 
     <img src="./images/imp-plan.png" alt="copilot" width="60%"/>
 
@@ -30,17 +30,17 @@
 
 5. Confirm the implementation plan by responding with "Yes" or "Proceed" to continue.
 
-    <img src="./images/doc-search-fiori-mcp.png" alt="copilot" width="60%"/>
+    <img src="./images/sap-fiori-analytical-chart-skill-doc.png" alt="copilot" width="60%"/>
 
 6. After completion, verify that the analytical chart and table are displayed on the list report page. They may appear in separate views or one below the other.
 
-    ![analytical chart](./images/analytical-chart.png)
+    ![analytical chart](./images/analytical-chart2.png)
 
     ----
     OR
     ----
 
-    ![analytical chart2](./images/analytical-chart2.png)
+    ![analytical chart2](./images/analytical-chart.png)
 
 ## Troubleshooting
 
