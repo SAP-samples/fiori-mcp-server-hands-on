@@ -54,4 +54,4 @@
 
 You have successfully added an analytical column chart displaying average price per destination to the List Report page.
 
-Continue to - [Exercise 2.0 - Modify travel object page based on Image](../ex2.0/README.md)
+Continue to - [Exercise 1.4 - Add a visual filter to the List Report](../ex1.4/README.md)
