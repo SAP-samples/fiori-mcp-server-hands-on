@@ -6,13 +6,8 @@
 
 2. Enter the prompt in the task input:
     ```
-    Add an analytical column chart to the List Report (ALP) that displays the average price per destination.
-        - Enable aggregation support on travel service.
-        - Configure Price as an aggregated property in the analytical chart.
-        - Use dynamic measure to configure chart.
-        - Use the Views configuration to display both analytical chart and table.
-    Create implementation plan first, then proceed with confirmation.
-    Consult sap-fiori-analytical-chart skill.
+   /sap-fiori-analytical-chart Add an analytical column chart to the List Report that displays the average price per destination.
+   Create implementation plan first, then proceed with confirmation.
     ```
 
 3. Execute the prompt. Copilot will consult the sap-fiori-analytical-chart skill on how to implement analytical charts.
@@ -34,13 +29,12 @@
 
 6. After completion, verify that the analytical chart and table are displayed on the list report page. They may appear in separate views or one below the other.
 
-    ![analytical chart](./images/analytical-chart2.png)
+    ![analytical chart2](./images/analytical-chart.png)
 
     ----
     OR
     ----
-
-    ![analytical chart2](./images/analytical-chart.png)
+    ![analytical chart](./images/analytical-chart2.png)
 
 ## Troubleshooting
 
