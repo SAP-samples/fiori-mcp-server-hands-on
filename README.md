@@ -50,6 +50,7 @@ Begin your exercises here. At the end of each section, there is a link to contin
     - [Exercise 1.1 Enable automatic data loading in List Report](./exercises/ex1.1/)
     - [Exercise 1.2 Add new column destination to list report table](./exercises/ex1.2/)
     - [Exercise 1.3 Add Analytical chart to list report page](./exercises/ex1.3/)
+    - [Exercise 1.3 Add Vistual Filter to list report page](./exercises/ex1.4/)
 
 - [Exercise 2 - Modify travel object page based on Image](./exercises/ex2.0/)
     - [Exercise 2.1 Add Custom Section with RichTextEditor Building Block](./exercises/ex2.1/)
