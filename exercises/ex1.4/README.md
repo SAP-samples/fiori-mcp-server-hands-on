@@ -38,11 +38,12 @@
 ## Troubleshooting
 
 - If the visual filter chart does not appear, execute the following prompts one at a time:
-    1. Extend `@Aggregation.ApplySupported` on the Travel entity to include `TotalPrice` in AggregatableProperties and `Destination` in GroupableProperties
-    2. Add `@Analytics.AggregatedProperty #TotalPrice_sum` for sum of TotalPrice
+    1. Extend `@Aggregation.ApplySupported` on the Travel entity to include `TotalPrice` in AggregatableProperties and `travelStatus_code` in GroupableProperties
+    2. Add `@Analytics.AggregatedProperty #TotalPrice_sum` for the dynamic measure
     3. Add `UI.Chart #visualFilter` with DynamicMeasures referencing `#TotalPrice_sum`
     4. Add `UI.PresentationVariant #visualFilter` and `Common.ValueList #visualFilter` on Destination
-    5. Update manifest `controlConfiguration` with `CompactVisual` layout and `filterFields` for Destination
+    5. Add `UI.SelectionFields` with Destination
+    6. Update manifest `controlConfiguration` with `CompactVisual` layout and `filterFields` for Destination
 
 ## Summary
 
