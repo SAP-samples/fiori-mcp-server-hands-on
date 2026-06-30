@@ -6,17 +6,9 @@
 
 2. Enter the prompt in the task input:
     ```
-    Add a visual filter to the Travel List Report (CAP project).
+    /sap-fiori-add-visual-filter Add a visual filtar bar to the List Report that displays the sum of total price per traval status.
+   Create implementation plan first, then proceed with confirmation.
 
-    - Entity: Travel
-    - Dimension: Destination
-    - Measure: TotalPrice
-    - Aggregation: sum
-    - Chart type: Bar
-    - Qualifier: visualFilter
-
-    Create an implementation plan first, then proceed after confirmation.
-    Consult sap-fiori-add-visual-filter skill.
     ```
 
 3. Execute the prompt. Copilot will consult the sap-fiori-add-visual-filter skill on how to implement visual filters.
@@ -24,7 +16,7 @@
     <img src="./images/imp-plan.png" alt="copilot" width="60%"/>
 
 4. Verify that your implementation plan includes the following changes:
-    - Extend `@Aggregation.ApplySupported` on the Travel entity to include `TotalPrice` in AggregatableProperties and `Destination` in GroupableProperties
+    - Extend `@Aggregation.ApplySupported` on the Travel entity to include `TotalPrice` in AggregatableProperties and `travelStatus_code` in GroupableProperties
     - Add `@Analytics.AggregatedProperty #TotalPrice_sum` for the dynamic measure
     - Add `UI.Chart #visualFilter` with DynamicMeasures
     - Add `UI.PresentationVariant #visualFilter`
