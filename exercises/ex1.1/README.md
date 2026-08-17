@@ -1,29 +1,51 @@
-# Enable automatic data loading in List Report
+# Adjust the buttons in the object page header
 
-1. Create a new chat.
+1. Explore the Canvas.
 
-    <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
+    * Familiarize yourself with the canvas in the center of your screen. You’ll see three prepared frames—each representing a screen of the application.
 
-2. Copy and paste the following prompt into the task input:
-    ```
-    I want the data to load automatically when I open the list report.
-    Create implementation plan first, then proceed with confirmation.
-    Consult MCP servers.
-    ```
+        ![Figma](./images/exc1-1-1.png)
 
-3. Execute the prompt. Copilot prepares an Implementation Plan.
+2. Navigate to Screen 2.
 
-    <img src="./images/imp-plan.png" alt="copilot" width="70%"/>
+    * Select the **Screen 2 - Object Page** in the left side panel.
 
+        ![Figma](./images/exc1-1-2.png)
 
-4. Confirm the implementation plan by responding with "Yes" or "Proceed".
+    * Press `Shift` + `2` on your keyboard to zoom in to the selection, or from the main menu select **View** → **Zoom to Selection**.
 
-    <img src="./images/initial-load.png" alt="copilot" width="60%"/>
+        ![Figma](./images/exc1-1-3.png)
 
-5. When the task is complete, verify the data is loaded on the list report table without pressing the **GO** button.
+    * Your canvas is now focused on the second screen of your application.
+
+        ![Figma](./images/exc1-1-4.png)
+
+3. Activate the Text Tool.
+
+    * Press `T` on your keyboard to switch to the **Text** tool, or select the **Text** tool icon in the tool menu at the bottom of the screen.
+
+        ![Figma](./images/exc1-1-5.png)
+
+4. Edit the Button Texts.
+
+    * Click into each button’s text field to modify the action labels.
+
+        ![Figma](./images/exc1-1-6.png)
+
+    * Replace the current button text **Action** with the following:
+
+        * `Accept Travel`
+
+        * `Deny Travel`
+
+        * `Deduct Discount`
+
+        ![Figma](./images/exc1-1-7.png)
 
 ## Summary
 
-You have successfully enabled automatic data loading in the List Report, eliminating the need for users to press the **GO** button.
+You’ve successfully updated the object page header by adjusting the labels of the action buttons.
 
-Continue to - [Exercise 1.2 - Add destination column to List Report table](../ex1.2/README.md)
+![Figma](./images/exc1-1-8.png)
+
+Continue to - [Exercise 1.2 - Add a form item in the object page](../ex1.2/README.md)

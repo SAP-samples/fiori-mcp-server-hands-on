@@ -1,46 +1,29 @@
-# Add Custom Section with RichTextEditor Building Block
+# Enable automatic data loading in List Report
 
 1. Create a new chat.
 
-    <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
+    <img src="../ex2.0/images/new-task.png" alt="close task" width="60%"/>
 
-2. Enter the following prompt in the task input:
+2. Copy and paste the following prompt into the task input:
     ```
-    Your task is to visualize the description field of the trip as a rich text editor on the object page of the travel management app. Implement in two steps:
-     1. Add a custom section at the last position of the object page
-     2. Use the rich text editor building block in the new section to show the description field. Ensure each button group for the Rich text editor has an ID
+    I want the data to load automatically when I open the list report.
     Create implementation plan first, then proceed with confirmation.
     Consult MCP servers.
-
     ```
 
-3. Execute the task.
+3. Execute the prompt. Copilot prepares an Implementation Plan.
 
-    ![buildingblock](./images/imp-plan.png)
+    <img src="./images/imp-plan.png" alt="copilot" width="70%"/>
+
 
 4. Confirm the implementation plan by responding with "Yes" or "Proceed".
 
-    ![buildingblock](./images/buildingblock-imp-plan.png)
+    <img src="./images/initial-load.png" alt="copilot" width="60%"/>
 
-5. After completion, verify that the travel description section is visible on the travel object page.
-
-6. Click the **Edit** button in the top right corner.
-
-7. In the travel description section, select some text and apply bold formatting.
-
-8. Click **Save** and verify that the object has been saved successfully.
-
-    ![buildingblock](./images/buildingblock.png)
-
-## Troubleshoot
-
-1. No **Edit** button on the travel object page. Execute the prompt:
-    ```
-    Enable draft mode for travel entity
-    ```
+5. When the task is complete, verify the data is loaded on the list report table without pressing the **GO** button.
 
 ## Summary
 
-You have successfully added a custom section with a RichTextEditor building block to the travel object page.
+You have successfully enabled automatic data loading in the List Report, eliminating the need for users to press the **GO** button.
 
-Continue to - [Exercise 3.0 - Add Object Page for Booking Details](../ex3.0/README.md)
+Continue to - [Exercise 2.2 - Add destination column to List Report table](../ex2.2/README.md)

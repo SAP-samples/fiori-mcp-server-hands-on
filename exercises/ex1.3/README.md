@@ -1,57 +1,36 @@
-# Add an analytical column chart to the List Report
+# Edit the new form item in the object page
 
-1. Create a new chat.
+1. Select the New Component.
 
-    <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
+    * You’ve just swapped the **Slot** with a **Form Item**. The new component should now be highlighted on the canvas.
+    * If it isn’t, hold `Ctrl` (Windows/Linux) / `⌘` (macOS) and **single-click** the component outside the text to select it manually.
 
-2. Enter the prompt in the task input:
-    ```
-    Add an analytical column chart to the List Report (ALP) that displays the average price per destination.
-        - Enable aggregation support on travel service.
-        - Configure Price as an aggregated property in the analytical chart.
-        - Use dynamic measure to configure chart.
-        - Use the Views configuration to display both analytical chart and table.
-    Create implementation plan first, then proceed with confirmation.
-    Consult Fiori MCP server.
-    ```
+2. View Component Properties.
 
-3. Execute the prompt. Copilot will consult the Fiori MCP server to access documentation on how to implement analytical charts.
+    * At the top of the right side panel, you’ll now see the properties of the **Form Item** component—specifically **Label** and **Value**.
 
-    <img src="./images/imp-plan.png" alt="copilot" width="60%"/>
+        ![Figma](./images/exc1-3-1.png)
 
-4. Verify that your implementation plan includes the following changes:
-    - Add `@Aggregation.ApplySupported` to the Travels entity to enable aggregation on the service
-    - Configure `@Analytics.AggregatedProperty` on the price field for the dynamic measure
-    - Configure the `UI.Chart` with dynamic measures
-    - Update the manifest with views configuration
+3. Edit the Label.
 
-> [!NOTE]
-> If the plan doesn't match, refine your plan by specifying each requirement individually.
+    * Locate the **Label** field, which is marked with an edit icon. Click in the field and type `Flight Price:`.
 
-5. Confirm the implementation plan by responding with "Yes" or "Proceed" to continue.
+        ![Figma](./images/exc1-3-2.png)
 
-    <img src="./images/doc-search-fiori-mcp.png" alt="copilot" width="60%"/>
+    * Press `Tab` on your keyboard to leave the field and see the result.
 
-6. After completion, verify that the analytical chart and table are displayed on the list report page. They may appear in separate views or one below the other.
+4. Edit the Value.
 
-    ![analytical chart](./images/analytical-chart.png)
+    * Locate the **Value** field, which is also marked with an edit icon. Click in the field and type `1.911,00 AUD`.
 
-    ----
-    OR
-    ----
+        ![Figma](./images/exc1-3-3.png)
 
-    ![analytical chart2](./images/analytical-chart2.png)
-
-## Troubleshooting
-
-- If you see `[50017] - Invalid data binding`, execute the following prompts one at a time:
-    1. Add `@Aggregation.ApplySupported` to the Travels entity to enable aggregation on the service
-    2. Configure `@Analytics.AggregatedProperty` on the price field for the dynamic measure
-    3. Configure the `UI.Chart` with dynamic measures
-    4. Update the manifest with views configuration to show both chart and table.
+    * Press `Tab` on your keyboard to leave the field and see the result.
 
 ## Summary
 
-You have successfully added an analytical column chart displaying average price per destination to the List Report page.
+You’ve successfully updated the form item with a new label and a new value.
 
-Continue to - [Exercise 2.0 - Modify travel object page based on Image](../ex2.0/README.md)
+![Figma](./images/exc1-3-4.png)
+
+Continue to - [Exercise 1.4 - Create a personal access token](../ex1.4/README.md)
