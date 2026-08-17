@@ -1,12 +1,12 @@
 # Getting Started - Set up your AI Development Environment
 
-As a participant of the hands-on tutorial, you should already be set up with access to the SAP Business Application Studio landscape below which you can use as your development environment.
+As a participant of the hands-on tutorial, you should already be setup with access to the SAP Business Application Studio landscape below which you can use as your development environment.
 
 ## Access SAP Business Application Studio (SBAS)
 
 1. Open https://lcapteched.eu10.build.cloud.sap/lobby in a new browser window or tab, which will ask you to login.
 
-2. Open the [Login File for SBAS](https://github.com/vinayhospete/Handson-connect/blob/main/hands-on-user.txt) and pick the login data for your assigned number.
+2. Open the [Login File for SBAS](../../SBASLogin.txt) and pick the login data for your assigned number.
 
 3. Enter the data in the SBAS browser window or tab to complete your login.
 
@@ -26,7 +26,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
 
 > [!NOTE]
-> If the **AgenticAppDevelopment** dev space is not available, please create a new dev space(Kind: full stack cloud application).
+> For this hands-on session, please use only the **AgenticAppDevelopment** development space.
 
 2. Once running, click the development space name to open it. This can take some time.
 
@@ -35,26 +35,6 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 3. Click **OK** in the popup window to accept the tracking settings in the newly created dev space.
 
     ![image](images/ex0img5.png)
-
-## Install SAP Fiori MCP Server
-- Open a new terminal.
-
-    ![image](images/open-terminal.png)
-
-- Execute the following command: 
-    ```
-    npm i -g @sap-ux/fiori-mcp-server@0.7.2
-
-    ```
-
-    ![image](images/install-fiori-mcp.png)
-
-## Verify MCP servers
-
-- Verify that the MCP servers listed below are installed.
-
-    ![mcp servers](./images/mcp-servers.png)
-    
 
 ## Open your project folder
 
@@ -78,20 +58,40 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/ex0img28.png)
 
-> [!NOTE]
-> Ensure that the Projects folder is empty before proceeding.
+## Configure MCP servers
 
-6. Download Image <a href="../../manage-travels-list-report.png" target="_blank" rel="noopener noreferrer">manage-travels-list-report.png</a> to your local disk.
+1. From the menu in the top-left corner, open the file mcp.json.
+     <img src="./images/ex0img29.png" alt="open file" width="60%"/>
 
-    ![image](images/download-image.png)
+2. Copy file path `/home/user/.vscode/data/User/mcp.json` and click OK
 
-7. Drag and drop the downloaded image to the project explorer.
+    <img src="./images/ex0img30.png" alt="mcp json" width="80%"/>
 
-    ![image](images/project-explorer.png)
+   - Append with below content.
+     ```json
+        "Framelink_Figma_MCP": {
+            "type": "stdio",
+            "timeout": 60,
+            "command": "npx",
+            "args": [
+                "-y",
+                "figma-developer-mcp",
+                "--figma-api-key=YOUR-KEY",
+                "--stdio"
+            ]
+        }
+     ```
+     <img src="./images/ex0img36.png" alt="mcp json" width="80%"/>
 
-## Configure GitHub Copilot (AI Client)
+4. Insert the personal access token created in the previous exercise into the Framelink_Figma_MCP configuration by replacing YOUR-KEY in --figma-api-key=YOUR-KEY with your token.
 
-1. Open **GitHub Copilot**.
+5. close `mcp.json` file and verify below mcp servers are installed.
+
+    <img src="./images/ex0img31.png" alt="mcp server installed" width="60%"/>
+
+## Configure Github Copilot (AI Client)
+
+1. Open **Github Copilot**.
 
     ![copilot](./images/ex0img32.png)
 
@@ -102,7 +102,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
 ## Summary
 
-You have successfully set up your AI development environment with SAP Business Application Studio and configured GitHub Copilot.
+You have successfully set up your AI development environment with SAP Business Application Studio and configured github Copilot.
 
 Continue to - [Exercise 2.0 - Create CAP Project and Fiori List Report App based on Figma Design](../ex2.0/README.md)
 
