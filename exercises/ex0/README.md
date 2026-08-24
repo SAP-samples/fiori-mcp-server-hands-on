@@ -89,6 +89,15 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/project-explorer.png)
 
+8. Download the <a href="../../projects.zip" target="_blank" rel="noopener noreferrer">projects.zip</a> file to your local disk.
+
+9. Drag and drop the downloaded **projects.zip** file to the project explorer.
+
+10. Open a terminal and run the following command to extract the file:
+    ```
+    unzip projects.zip
+    ```
+
 ## Configure GitHub Copilot (AI Client)
 
 1. Open **GitHub Copilot**.
