@@ -14,8 +14,10 @@
     ```
     Generate a new CAP project and SAP Fiori app based on Image attached to the context.
     Include technical key and business key for all entities.
+    Set criticality colours for travel status column as shown in the image.
+
     Create implementation plan first, then proceed with confirmation.
-    Consult available MCP servers.
+    Follow all instructions and consult available MCP servers.
     ```
 
     ![execute prompt](./images/execute-prompt.png)

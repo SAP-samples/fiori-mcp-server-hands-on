@@ -95,7 +95,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![copilot](./images/ex0img32.png)
 
-2. Select model **Claude Sonnet 4.5**.
+2. Select model **Claude 4.7 Opus (SAP Build)**.
 
     ![copilot](./images/ex0img34.png)
 
