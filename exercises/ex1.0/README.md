@@ -51,7 +51,11 @@
 
 9. After completing all the to-dos/tasks, Copilot confirms the successful creation of the CAP project and Fiori app.
 
-10. The application should automatically open in your browser, displaying a travel list report application that matches the list report Image.
+10. To run the application, click the **Insert into Terminal** button when Copilot presents the watch command.
+
+    ![run preview](./images/preview-command.png)
+
+    The application will open in your browser, displaying a travel list report application that matches similar to the uploaded screenshot.
 
     ![application preview](./images/application-preview.png)
 
