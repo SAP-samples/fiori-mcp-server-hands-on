@@ -89,7 +89,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/project-explorer.png)
 
-8. Download the <a href="projects.zip" target="_blank" rel="noopener noreferrer">projects.zip</a> file to your local disk.
+8. Download the <a href="config.zip" target="_blank" rel="noopener noreferrer">config.zip</a> file to your local disk.
 
     ![image](images/download-instructions.png)
 
@@ -97,7 +97,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
 10. Open a terminal and run the following command to extract the file:
     ```
-    unzip projects.zip
+    unzip config.zip
     ```
 
 ## Configure GitHub Copilot (AI Client)
