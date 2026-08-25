@@ -93,7 +93,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/download-instructions.png)
 
-9. Drag and drop the downloaded **projects.zip** file to the project explorer.
+9. Drag and drop the downloaded **config.zip** file to the project explorer.
 
 10. Open a terminal and run the following command to extract the file:
     ```
