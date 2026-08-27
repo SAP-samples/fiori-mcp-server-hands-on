@@ -14,6 +14,7 @@
     ```
     Generate a new CAP project and SAP Fiori app based on Image attached to the context.
     Include technical key and business key for all entities.
+    Use Dollar as currency throughout the application.
 
     Create implementation plan first, then proceed with confirmation.
     Follow all instructions and consult available MCP servers.
