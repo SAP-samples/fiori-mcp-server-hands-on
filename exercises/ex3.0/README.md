@@ -12,9 +12,7 @@
 
 4. Double-click on **bookings-object-page.png** in the Explorer to view the image.
 
-5. Upload the image to the Copilot context.
-
-    ![context](../ex1.0/images/context.png)
+5. Drag and drop the image in to copilot chat.
 
 6. Copy and paste the following prompt into the task input and execute the task:
     ```

@@ -31,12 +31,6 @@
 
     ![analytical chart](./images/analytical-chart.png)
 
-    ----
-    OR
-    ----
-
-    ![analytical chart2](./images/analytical-chart2.png)
-
 ## Troubleshooting
 
 - If you see `[50017] - Invalid data binding`, execute the following prompts one at a time:
