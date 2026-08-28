@@ -8,11 +8,15 @@
 
     ![download](./images/download-image.png)
 
-3. Upload the image to the Copilot context.
+3. Drag and drop the image into the Explorer.
+
+4. Double-click on **manage-travels-object-page.png** in the Explorer to view the image.
+
+5. Upload the image to the Copilot context.
 
     ![context](../ex1.0/images/context.png)
 
-4. Enter the following prompt in the task input:
+6. Copy and paste the following prompt into the task input and execute the task:
     ```
     Modify the travel object page based on Image attached to the context.
 
@@ -24,15 +28,15 @@
     Consult MCP servers.
     ```
 
-5. Execute the task.
+7. Copilot prepares an implementation plan.
 
     <img src="./images/imp-plan.png" alt="copilot" width="60%"/>
 
-6. Confirm the implementation plan by responding with "Yes" or "Proceed".
+8. Confirm the implementation plan by responding with "Yes" or "Proceed".
 
     ![travel object page](./images/execute-objpage.png)
 
-7. After completion, verify the object page in the application preview:
+9. After completion, verify the object page in the application preview:
     - Verify the object page header contains both title and description.
     - Make sure the fields in the **General Information** section are arranged as per the Image uploaded to the context.
 
