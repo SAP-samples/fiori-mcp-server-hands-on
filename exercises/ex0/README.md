@@ -59,27 +59,9 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/ex0img28.png)
 
-> [!NOTE]
-> Ensure that the Projects folder is empty before proceeding.
+6. Ensure that the Projects folder has following content
 
-6. Download Image <a href="../../manage-travels-list-report.png" target="_blank" rel="noopener noreferrer">manage-travels-list-report.png</a> to your local disk.
-
-    ![image](images/download-image.png)
-
-7. Drag and drop the downloaded image to the project explorer.
-
-    ![image](images/project-explorer.png)
-
-8. Download the <a href="config.zip" target="_blank" rel="noopener noreferrer">config.zip</a> file to your local disk.
-
-    ![image](images/download-instructions.png)
-
-9. Drag and drop the downloaded **config.zip** file to the project explorer.
-
-10. Open a terminal and run the following command to extract the file:
-    ```
-    unzip config.zip
-    ```
+    ![image](images/explorer.png)
 
 ## Configure GitHub Copilot (AI Client)
 

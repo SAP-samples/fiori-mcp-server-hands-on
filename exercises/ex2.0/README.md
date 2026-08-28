@@ -4,19 +4,10 @@
 
     <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
 
-2. Download the [manage-travels-object-page.png](../../manage-travels-object-page.png) image to your local disk.
-
-    ![download](./images/download-image.png)
-
-3. Drag and drop the image into the Explorer.
-
-4. Double-click on **manage-travels-object-page.png** in the Explorer to view the image.
-
-5. Drag and drop the image into the copilot chat.
-
-6. Copy and paste the following prompt into the task input and execute the task:
+2. Copy and paste the following prompt into the task input and execute the task:
     ```
-    Modify the travel object page based on Image attached to the context.
+    Modify the travel object page based on Image
+    /home/user/projects/Images/manage-travels-object-page.png
 
     - Reorganize the General Information section into subsections following the Image
     - Align all fields, sections, and structure precisely with the Image
@@ -26,15 +17,15 @@
     Consult MCP servers.
     ```
 
-7. Copilot prepares an implementation plan.
+3. Copilot prepares an implementation plan.
 
     <img src="./images/imp-plan.png" alt="copilot" width="60%"/>
 
-8. Confirm the implementation plan by responding with "Yes" or "Proceed".
+4. Confirm the implementation plan by responding with "Yes" or "Proceed".
 
     ![travel object page](./images/execute-objpage.png)
 
-9. After completion, verify the object page in the application preview:
+5. After completion, verify the object page in the application preview:
     - Verify the object page header contains both title and description.
     - Make sure the fields in the **General Information** section are arranged as per the Image uploaded to the context.
 
