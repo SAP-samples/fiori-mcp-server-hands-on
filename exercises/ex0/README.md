@@ -35,12 +35,6 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 3. Click **OK** in the popup window to accept the tracking settings in the newly created dev space.
 
     ![image](images/ex0img5.png)
-
-## Verify MCP servers
-
-- Verify that the MCP servers listed below are installed.
-
-    ![mcp servers](./images/mcp-servers.png)
     
 
 ## Open your project folder
