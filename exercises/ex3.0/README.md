@@ -8,21 +8,30 @@
 
 3. Copy and paste the following prompt into the task input and execute the task:
     ```
-    Create a booking detail object page based on the attached Image
+    Extract data from the attached Image
+    ```
+
+4. Verify that the extracted data matches the image.
+
+    ![second object page](./images/extract-image.png)
+
+5. Copy and paste the following prompt into the task input and execute the task:
+    ```
+    Create a booking detail object page based on the extracted data.
 
     Create implementation plan first, then proceed with confirmation.
     Consult MCP servers.
     ```
 
-4. Copilot prepares an implementation plan.
+6. Copilot prepares an implementation plan.
 
     ![second object page](./images/imp-plan.png)
 
-5. Confirm the implementation plan by responding with "Yes" or "Proceed".
+7. Confirm the implementation plan by responding with "Yes" or "Proceed".
 
     ![booking object page](./images/execute-booking-objpage.png)
 
-6. After completion, navigate to the Travel object page and click on a row in the bookings table to open the booking object page. Verify the booking object page appears correctly in the application preview.
+8. After completion, navigate to the Travel object page and click on a row in the bookings table to open the booking object page. Verify the booking object page appears correctly in the application preview.
 
     ![booking object page](./images/booking-objpage.png)
 

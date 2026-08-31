@@ -8,13 +8,14 @@
 
 3. Copy and paste the following prompt into the task input and execute the task:
     ```
-    Modify the travel object page based on the attached Image
+    Extract the data from the attached image, then modify the travel object page based on the extracted data:
 
-    - Reorganize the General Information section into subsections following the Image
-    - Align all fields, sections, and structure precisely with the Image
-    - Add a bookings table section below displaying flight booking details.
+    - Reorganize the General Information section into subsections as shown in the image.
+    - Align all fields, sections, and structure precisely with the image.
+    - Add a bookings table section below, displaying flight booking details.
     - Generate mock data for the bookings table.
-    Create implementation plan first, then proceed with confirmation.
+
+    Create an implementation plan first, then proceed after confirmation.
     Consult MCP servers.
     ```
 
