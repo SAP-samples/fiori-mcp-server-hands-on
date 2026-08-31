@@ -4,24 +4,25 @@
 
     <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
 
-2. Copy and paste the following prompt into the task input and execute the task:
+2. Drag and drop the image bookings-object-page.png from the images folder into the Copilot Chat window to attach it as context.
+
+3. Copy and paste the following prompt into the task input and execute the task:
     ```
-    Create a booking detail object page based on the Image
-    /home/user/projects/Images/bookings-object-page.png
+    Create a booking detail object page based on the attached Image
 
     Create implementation plan first, then proceed with confirmation.
     Consult MCP servers.
     ```
 
-3. Copilot prepares an implementation plan.
+4. Copilot prepares an implementation plan.
 
     ![second object page](./images/imp-plan.png)
 
-4. Confirm the implementation plan by responding with "Yes" or "Proceed".
+5. Confirm the implementation plan by responding with "Yes" or "Proceed".
 
     ![booking object page](./images/execute-booking-objpage.png)
 
-5. After completion, navigate to the Travel object page and click on a row in the bookings table to open the booking object page. Verify the booking object page appears correctly in the application preview.
+6. After completion, navigate to the Travel object page and click on a row in the bookings table to open the booking object page. Verify the booking object page appears correctly in the application preview.
 
     ![booking object page](./images/booking-objpage.png)
 

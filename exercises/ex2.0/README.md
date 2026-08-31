@@ -4,10 +4,11 @@
 
     <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
 
-2. Copy and paste the following prompt into the task input and execute the task:
+2. Drag and drop the image manage-travels-object-page.png from the images folder into the Copilot Chat window to attach it as context.
+
+3. Copy and paste the following prompt into the task input and execute the task:
     ```
-    Modify the travel object page based on Image
-    /home/user/projects/Images/manage-travels-object-page.png
+    Modify the travel object page based on the attached Image
 
     - Reorganize the General Information section into subsections following the Image
     - Align all fields, sections, and structure precisely with the Image
@@ -17,15 +18,15 @@
     Consult MCP servers.
     ```
 
-3. Copilot prepares an implementation plan.
+4. Copilot prepares an implementation plan.
 
     <img src="./images/imp-plan.png" alt="copilot" width="60%"/>
 
-4. Confirm the implementation plan by responding with "Yes" or "Proceed".
+5. Confirm the implementation plan by responding with "Yes" or "Proceed".
 
     ![travel object page](./images/execute-objpage.png)
 
-5. After completion, verify the object page in the application preview:
+6. After completion, verify the object page in the application preview:
     - Verify the object page header contains both title and description.
     - Make sure the fields in the **General Information** section are arranged as per the Image uploaded to the context.
 
