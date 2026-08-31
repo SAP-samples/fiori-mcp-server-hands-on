@@ -4,7 +4,7 @@
 
     <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
 
-2. Drag and drop the image manage-travels-object-page.png from the images folder into the Copilot Chat window to attach it as context.
+2. Drag and drop the image [manage-travels-object-page.png](../../manage-travels-object-page.png) from the images folder into the Copilot Chat window to attach it as context.
 
 3. Copy and paste the following prompt into the task input and execute the task:
     ```

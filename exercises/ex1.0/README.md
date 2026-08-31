@@ -1,6 +1,6 @@
 # Create CAP Project and Fiori List Report App based on Image
 
-1. Drag and drop the image manage-travels-list-report.png from the Images folder into the Copilot Chat window to attach it as context.
+1. Drag and drop the image [manage-travels-list-report.png](../../manage-travels-list-report.png) from the Images folder into the Copilot Chat window to attach it as context.
 
     ![drag](./images/drag-image.png)
 
