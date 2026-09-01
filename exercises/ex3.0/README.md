@@ -8,7 +8,7 @@
 
 3. Copy and paste the following prompt into the task input and execute the task:
     ```
-    Extract data from the attached Image
+    Extract data from the attached Image. Do not inspect any other image files in the workspace.
     ```
 
 4. Verify that the extracted data matches the image.

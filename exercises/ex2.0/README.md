@@ -16,7 +16,7 @@
     - Generate mock data for the bookings table.
 
     Create an implementation plan first, then proceed after confirmation.
-    Consult MCP servers.
+    Consult MCP servers. Do not inspect any other image files in the workspace.
     ```
 
 4. Copilot prepares an implementation plan.
