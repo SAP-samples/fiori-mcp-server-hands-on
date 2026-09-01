@@ -1,6 +1,8 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/fiori-mcp-server-hands-on)](https://api.reuse.software/info/github.com/SAP-samples/fiori-mcp-server-hands-on)
 
-# Hands-on | Create great UX with AI, SAP Design System, SAP Fiori elements, and SAPUI5 
+# Hands-on | SAP Connect Day for UX Newtown Square
+
+# Create great UX with AI, SAP Design System, SAP Fiori elements, and SAPUI5 
 
 ## Overview
 
