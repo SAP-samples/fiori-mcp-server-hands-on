@@ -6,9 +6,9 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
 1. Open https://lcapteched.eu10.build.cloud.sap/lobby in a new browser window or tab, which will ask you to login.
 
-2. Open the [Login File for SBAS](https://github.com/vinayhospete/Handson-connect/blob/main/hands-on-user.txt) and pick the login data for your assigned number.
+2. Right-click the [Login File for SBAS](https://github.com/vinayhospete/Handson-connect/blob/main/hands-on-user.txt) link and select **Open Link in New Tab**, then pick the login credentials assigned to your number.
 
-3. Enter the data in the SBAS browser window or tab to complete your login.
+3. Enter the credentials in the SBAS browser window or tab to complete your login.
 
     <img src="./images/ex0img23.png" alt="login" width="60%"/>
 
