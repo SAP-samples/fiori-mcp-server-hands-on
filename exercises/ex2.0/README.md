@@ -8,7 +8,17 @@
 
 3. Copy and paste the following prompt into the task input and execute the task:
     ```
-    Extract the data from the attached image, then modify the travel object page based on the extracted data:
+    Extract data from the attached Image. Do not inspect any other image files in the workspace.
+    ```
+    ![extract image](./images/extract-image.png)
+
+4. Verify that the extracted data matches the image.
+
+    ![extracted data](./images/extracted-data.png)
+
+5. Copy and paste the following prompt into the task input and execute the task:
+    ```
+    Modify the travel object page based on the extracted data:
 
     - Reorganize the General Information section into subsections as shown in the image.
     - Align all fields, sections, and structure precisely with the image.
@@ -16,18 +26,18 @@
     - Generate mock data for the bookings table.
 
     Create an implementation plan first, then proceed after confirmation.
-    Consult MCP servers. Do not inspect any other image files in the workspace.
+    
     ```
 
-4. Copilot prepares an implementation plan.
+6. Copilot prepares an implementation plan.
 
     <img src="./images/imp-plan.png" alt="copilot" width="60%"/>
 
-5. Confirm the implementation plan by responding with "Yes" or "Proceed".
+7. Confirm the implementation plan by responding with "Yes" or "Proceed".
 
     ![travel object page](./images/execute-objpage.png)
 
-6. After completion, verify the object page in the application preview:
+8. After completion, verify the object page in the application preview:
     - Verify the object page header contains both title and description.
     - Make sure the fields in the **General Information** section are arranged as per the Image uploaded to the context.
 
