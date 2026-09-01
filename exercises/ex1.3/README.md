@@ -20,11 +20,9 @@
 
 ## Troubleshooting
 
-- If you see `[50017] - Invalid data binding`, execute the following prompts one at a time:
-    1. Add `@Aggregation.ApplySupported` to the Travels entity to enable aggregation on the service
-    2. Configure `@Analytics.AggregatedProperty` on the price field for the dynamic measure
-    3. Configure the `UI.Chart` with dynamic measures
-    4. Update the manifest with views configuration to show both chart and table.
+- If the chart is not visible on the list report page, execute the following prompt: `In Manifest, views.paths must be at the settings level, not inside controlConfiguration`
+
+- If you see `[50017] - Invalid data binding`, execute the following prompt: `/sap-fiori-analytical-chart verify analytical chart implementation`
 
 ## Summary
 
