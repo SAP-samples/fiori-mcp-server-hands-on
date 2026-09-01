@@ -24,6 +24,8 @@
 
 - If you see `[50017] - Invalid data binding`, execute the following prompt: `/sap-fiori-analytical-chart verify analytical chart implementation`
 
+- If you see `Invalid data - Some measures have different units` because test data might have mixed currencies, execute the following prompt: `Some measures have different units. Use Dollar as currency throughout the application`
+
 ## Summary
 
 You have successfully added an analytical column chart displaying average price per destination to the List Report page.

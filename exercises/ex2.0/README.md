@@ -48,6 +48,10 @@
 - The booking table does not appear below General Information section.
     Execute the prompt: `Change section layout to page for travel object page`.
 
+- If the object page title is not visible, execute the prompt: `Object page title not visible`
+
+    ![no title](./images/objpage-no-title.png)
+
 ## Summary
 
 You have successfully modified the travel object page based on the Image, including the bookings table section.
