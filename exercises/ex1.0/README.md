@@ -18,6 +18,7 @@
 
     Create implementation plan first, then proceed with confirmation.
     Follow all instructions and consult available MCP servers.
+    Do not inspect any other image files in the workspace.
     ```
 
     ![execute prompt](./images/execute-prompt.png)
