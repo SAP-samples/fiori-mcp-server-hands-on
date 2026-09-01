@@ -20,10 +20,11 @@
     ```
     Modify the travel object page based on the extracted data:
 
+    - Set object page title and description precisely with the image.
     - Reorganize the General Information section into subsections as shown in the image.
     - Align all fields, sections, and structure precisely with the image.
-    - Add a bookings table section below, displaying flight booking details.
-    - Generate mock data for the bookings table.
+    - Use Dollar as currency.
+    - Generate mock data.
 
     Create an implementation plan first, then proceed after confirmation.
     
