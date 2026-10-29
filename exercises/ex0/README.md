@@ -1,80 +1,72 @@
 # Getting Started - Set up your AI Development Environment
 
-As a participant of the hands-on tutorial, you should already be set up with access to the SAP Business Application Studio landscape below which you can use as your development environment.
+As a participant of the hands-on tutorial, you will use **Visual Studio Code** on your local machine as your development environment.
 
-## Access SAP Business Application Studio (SBAS)
+## Install Visual Studio Code
 
-1. Open https://lcapteched.eu10.build.cloud.sap/lobby in a new browser window or tab, which will ask you to login.
+1. Download and install Visual Studio Code from the official site: https://code.visualstudio.com/.
 
-2. Enter the credentials in the SBAS browser window or tab to complete your login.
+2. Launch VS Code once installation is complete.
 
-    <img src="./images/ex0img23.png" alt="login" width="60%"/>
+## Install Prerequisites
 
-## Access the Dev Space Manager
+Install the following tools so that VS Code can build and run the SAP Fiori / CAP projects used in this tutorial.
 
-1. On the SAP Build landing page, click the **Switch Product** button in the top right corner and select **Dev Space Manager**.
+### Node.js (LTS)
 
-    ![Access Dev Space Manager](images/ex0img0.png)
+1. Download and install the latest **LTS** version of Node.js from https://nodejs.org/.
 
-## Open the Development Space
+2. Verify the installation from a terminal:
 
-1. Make sure that the development space **AgenticAppDevelopment** has the status running. If stopped, click the **start** button.
+    ```bash
+    node --version
+    npm --version
+    ```
 
-    ![Restart Dev Space](images/ex0img4a.png)
+### SAP Fiori tools - Extension Pack
 
+1. In VS Code, open the **Extensions** view (`Ctrl+Shift+X` / `Cmd+Shift+X`).
 
-> [!NOTE]
-> If the **AgenticAppDevelopment** dev space is not available, please create a new dev space(Kind: full stack cloud application).
+2. Search for **SAP Fiori tools - Extension Pack** and click **Install**.
 
-2. Once running, click the development space name to open it. This can take some time.
+    This extension pack bundles the SAP Fiori generators, Application Modeler, Guided Development, XML/annotation tooling, and more.
 
-    ![Enter Dev Space](images/ex0img4.png)
-
-3. Click **OK** in the popup window to accept the tracking settings in the newly created dev space.
-
-    ![image](images/ex0img5.png)
-    
-
-## Open your project folder
-
-1. Select the **explorer icon** on the left side.
-
-    ![image](images/ex0img10.png)
-
-2. Select **Open Folder**.
-
-    ![image](images/ex0img11.png)
-
-3. Select the **projects** folder from the drop down.
-
-    ![image](images/ex0img12.png)
-
-4. Click **OK** and your window will reload.
-
-    ![image](images/ex0img13.png)
-
-5. Enable **Clipboard access** for the SBAS instance in the Chrome browser.
-
-    ![image](images/ex0img28.png)
-
-6. Ensure that the Projects folder has following content
-
-    ![image](images/explorer.png)
+3. Reload VS Code if prompted.
 
 ## Configure GitHub Copilot (AI Client)
 
-1. Open **GitHub Copilot**.
+GitHub Copilot Chat is a built-in extension in VS Code and part of standard VS Code installation. You only need to sign in and pick a model.
 
-    ![copilot](./images/ex0img32.png)
+1. Sign in with your personal or work GitHub account.
+2. Open Copilot Chat.
+3. Click the model dropdown at the bottom of the chat panel.
+4. Select any Claude **Sonnet** or **Opus** model version of your choice.
 
-2. Select model **Claude 4.7 Opus (SAP Build)**.
+## Install Plugin
 
-    ![copilot](./images/ex0img34.png)
+To let GitHub Copilot create and modify SAP Fiori Elements applications, install the `sap-ux-fiori-tools` plugin:
 
+1. In VS Code, open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Chat: Plugins**.
+2. Search for **sap-ux-fiori-tools**.
+3. Click **Install**.
+4. **Disable the built-in MCP Server** to avoid duplicate configurations:
+    - Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Preferences: Open User Settings**.
+    - Search for **SAP Fiori MCP**.
+    - Uncheck **SAP UX Fiori Tools > MCP Server: Enable** to disable the MCP Server provided by the SAP Fiori Tools - Application Modeler extension.
+
+## Open your projects folder
+
+In the next exercises you will use AI to **generate a new project** inside this projects folder — it should be empty at this point.
+
+1. Create an empty local folder named `projects` anywhere on your local system (for example `~/user/projects` on macOS/Linux or `C:\user\projects` on Windows).
+
+2. In VS Code, choose **File > Open Folder…** and select the `projects` folder.
+
+3. If VS Code asks about trusting the folder, confirm **Yes, I trust the authors**.
 
 ## Summary
 
-You have successfully set up your AI development environment with SAP Business Application Studio and configured GitHub Copilot.
+You have successfully set up your AI development environment with Visual Studio Code, installed the SAP Fiori tools - Extension Pack and Node.js, installed the **sap-ux-fiori-tools** Copilot plugin, and signed in to the built-in GitHub Copilot with a Claude **Sonnet** or **Opus** model of your choice.
 
 Continue to - [Exercise 1.0 - Create CAP Project and Fiori List Report App based on Image](../ex1.0/README.md)
 

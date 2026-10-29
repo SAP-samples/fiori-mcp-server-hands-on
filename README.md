@@ -1,46 +1,16 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/fiori-mcp-server-hands-on)](https://api.reuse.software/info/github.com/SAP-samples/fiori-mcp-server-hands-on)
-
-# Hands-on | SAP Connect Day for UX Newtown Square
-
-# Create great UX with AI, SAP Design System, SAP Fiori elements, and SAPUI5 
+# Build a Full-Stack SAP Fiori Elements App on a CAP project using AI
 
 ## Overview
 
-In this hands-on tutorial you will work through a set of exercises that highlight the benefits and capabilities of the **MCP servers by SAP** to create and modify SAP Fiori applications with the help of AI coding assistants. 
+AI can carry a lot of the repetitive work in SAP development, if you let it drive the right tools. In this tutorial you do exactly that: you talk to an AI assistant in plain language, and it builds a CAP service and a SAP Fiori Elements app on top of it, then helps you enhance both.
 
-You will gain comprehensive knowledge of AI assisted full-stack development, and learn how to kickstart your SAP Fiori elements application development.
+Two MCP servers do the heavy lifting: the CAP MCP server handles the backend, and the MCP server for SAP Fiori generates and enhances the app. That server helps in more than one way, and you meet each along the way: change tools that apply edits, a doc search that returns matching documentation snippets, and SAP Fiori development skills that package a whole task. You start from a travel booking scenario, build a CAP service with CDS models, generate a List Report and Object Page, and then extend the UI and the service step by step, all through natural-language prompts.
+
+You will gain comprehensive knowledge of AI-assisted full-stack development, and learn how to kickstart your SAP Fiori Elements application development.
 
 ## Using AI during App Development
 
-We are using GitHub Copilot as AI client within SAP Business Application Studio (SBAS) and Anthropic Claude Sonnet/Opus LLM (Large Language Model) throughout the exercises. When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. GitHub Copilot and the chosen LLM are powerful assistants for problem resolution.
-
-### General steps in case of issues:
-
-[Detailed steps and examples of resolving common issues](./exercises/troubleshoot/)
-
-1. Verify connectivity:
-    - Check if your machine has network access.
-    - Confirm that the MCP server is up and running.
-
-2. Approach errors systematically
-    - Pause before panicking
-        - Use natural pauses when the client asks for approval to inspect the current results and chat history.    
-        - Stop execution with the "Cancel" button. You can always proceed from there with a new prompt
-    - Identify the source: Check if the issue is:
-        - CDS compiler error
-        - SQLite/database error
-        - Console/browser runtime error
-
-3. Using the LLM to solve an issue
-    - The LLM occasionally makes mistakes, or forgets required steps leading to error situations
-    - But the LLM can read the terminal output and react to API responses, and correct errors visible there
-    - Other issues, like from browser console output, can be resolved by copy-pasting the full error message into the chat and ask for a fix in a prompt
-    - LLM works best when exact messages are provided rather than manual descriptions.
-
-4. Use Restore Points if Needed
-    - If a solution strategy does not work, you can always restore the files and chat to a previous checkpoint using GitHub Copilot’s restore functionality.
-
-5. Don’t be afraid to retry an exercise or step after restoring to a checkpoint.
+We are using GitHub Copilot as AI coding assistant within VS Code and Anthropic Claude Sonnet/Opus LLM (Large Language Model) throughout the exercises. When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. GitHub Copilot and the chosen LLM are powerful assistants for problem resolution.
 
 ## Exercises
 
