@@ -2,8 +2,6 @@
 
 1. Drag and drop the image [manage-travels-list-report.png](../../manage-travels-list-report.png) from the Images folder into the Copilot Chat window to attach it as context.
 
-    ![drag](./images/drag-image.png)
-
     ![drop](./images/drop-image.png)
 
 
@@ -38,21 +36,13 @@
 
     <img src="./images/bash-approve.png" alt="copilot" width="80%"/>
 
-> [!CAUTION]
-> If you encounter the error "The prompt was not accepted due to safety violations," simply ask Copilot to retry the request. ![safety violation](./images/safety-violation.png)
-
 6. Review the files and content created by Copilot, then click **Keep** to accept them.
 
     <img src="./images/file-changes.png" alt="copilot" width="80%"/>
 
-7. If Copilot reaches the maximum number of requests allowed per turn in agent mode, click **Continue** to resume the implementation.
+7. After completing all the to-dos/tasks, Copilot confirms the successful creation of the CAP project and Fiori app.
 
-    ![max request](./images/max-request.png)
-
-
-8. After completing all the to-dos/tasks, Copilot confirms the successful creation of the CAP project and Fiori app.
-
-9. To run the application, click the **Insert into Terminal** button when Copilot presents the watch command.
+8. To run the application, click the **Insert into Terminal** button when Copilot presents the watch command.
 
     ![run preview](./images/preview-command.png)
 
