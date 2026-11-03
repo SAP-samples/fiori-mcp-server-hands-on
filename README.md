@@ -1,4 +1,4 @@
-# Build a Full-Stack SAP Fiori Elements App on a CAP project using AI
+# Build a Full-Stack SAP Fiori Elements App on a CAP project using AI on VS Code
 
 ## Overview
 
