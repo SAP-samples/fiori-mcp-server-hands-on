@@ -1,39 +1,40 @@
 # Getting Started - Set up your AI Development Environment
 
-As a participant of the hands-on tutorial, you should already be set up with access to the SAP Business Application Studio landscape below which you can use as your development environment.
+In this exercise you will set up SAP Business Application Studio (SBAS) as your development environment and configure GitHub Copilot as your AI assistant.
 
-## Access SAP Business Application Studio (SBAS)
+## Onboard SAP Business Application Studio
 
-1. Open https://lcapteched.eu10.build.cloud.sap/lobby in a new browser window or tab, which will ask you to login.
+If you don't have access to SAP Business Application Studio yet, follow the official tutorial to onboard it in your SAP BTP Trial account:
 
-2. Enter the credentials in the SBAS browser window or tab to complete your login.
+👉 [Set Up SAP Business Application Studio for Development](https://developers.sap.com/tutorials/appstudio-onboarding)
 
-    <img src="./images/ex0img23.png" alt="login" width="60%"/>
+This tutorial walks you through:
 
-## Access the Dev Space Manager
+- Logging into SAP BTP Trial
+- Enabling Cloud Foundry
+- Checking the required entitlements
+- Launching SAP Business Application Studio for the first time
 
-1. On the SAP Build landing page, click the **Switch Product** button in the top right corner and select **Dev Space Manager**.
+> [!TIP]
+> Bookmark the SAP Business Application Studio dev space manager page once you reach it — you will come back to it in every exercise.
 
-    ![Access Dev Space Manager](images/ex0img0.png)
+## Create a Dev Space for SAP Fiori Apps
 
-## Open the Development Space
+Next, create a preconfigured dev space tailored for SAP Fiori development by following this tutorial:
 
-1. Make sure that the development space **AgenticAppDevelopment** has the status running. If stopped, click the **start** button.
+👉 [Create a Dev Space for SAP Fiori Apps](https://developers.sap.com/tutorials/appstudio-devspace-fiori-create)
 
-    ![Restart Dev Space](images/ex0img4a.png)
+Follow the tutorial end-to-end to:
 
+1. Open the SAP Business Application Studio dev space manager.
+2. Click **Create Dev Space**.
+3. Enter a dev space **name** (for example `AgenticAppDevelopment`).
+4. Choose **SAP Fiori** as the application type.
+5. Click **Create Dev Space** and wait until the dev space status is **RUNNING**.
+6. Click the dev space name to open it, and accept any legal/privacy prompts.
 
 > [!NOTE]
-> If the **AgenticAppDevelopment** dev space is not available, please create a new dev space(Kind: full stack cloud application).
-
-2. Once running, click the development space name to open it. This can take some time.
-
-    ![Enter Dev Space](images/ex0img4.png)
-
-3. Click **OK** in the popup window to accept the tracking settings in the newly created dev space.
-
-    ![image](images/ex0img5.png)
-    
+> After a period of idle time the dev space is automatically stopped. To restart it, open the dev space manager, click the **Play** icon next to your dev space, and then click the dev space name to open it.
 
 ## Open your project folder
 
@@ -57,24 +58,53 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/ex0img28.png)
 
-6. Ensure that the Projects folder has following content
+6. Unzip [`Images.zip`](../../Images.zip) into your workspace so the sample images are available for the upcoming exercises.
 
-    ![image](images/explorer.png)
+    1. Download [`Images.zip`](../../Images.zip) to your local machine.
+    2. Drag and drop Images.zip in to projects in the SBAS explorer.
+    3. Open a terminal in SBAS. then run:
 
-## Configure GitHub Copilot (AI Client)
+        ```bash
+        unzip Images.zip.
+        ```
 
-1. Open **GitHub Copilot**.
+    4. Confirm that an `Images` folder (with the screenshots) now appears in the explorer.
 
-    ![copilot](./images/ex0img32.png)
 
-2. Select model **Claude 4.7 Opus (SAP Build)**.
 
-    ![copilot](./images/ex0img34.png)
+## Install Skills for CAP and SAP Fiori Application Development
+
+To enhance AI assistance with CAP and SAP Fiori development patterns and best practices, install the corresponding skills into your project:
+
+1. Open the integrated terminal in SBAS.
+
+2. Install the **CAP** development skills:
+
+    ```bash
+    npx skills add https://github.com/capire/skills.git
+    ```
+
+    Follow the interactive prompts and choose **Project** as the installation scope.
+
+3. Install the **SAP Fiori** development skills:
+
+    ```bash
+    npx -y skills add https://github.com/SAP/open-ux-tools/tree/main/plugins-coding-agents/fiori/skills --skill '*'
+    ```
+
+    Follow the interactive prompts and choose **Project** as the installation scope.
+
+> [!NOTE]
+> Installing skills at **Project** scope keeps them scoped to this workspace, so AI Chat can pick up CAP and SAP Fiori guidance automatically whenever you work in this project.
+
+4. Ensure that the Projects folder has following content
+
+    ![image](images/explorer.png) // change image
 
 
 ## Summary
 
-You have successfully set up your AI development environment with SAP Business Application Studio and configured GitHub Copilot.
+You have successfully set up your AI development environment with SAP Business Application Studio, configured GitHub Copilot, and installed the CAP and SAP Fiori development skills.
 
 Continue to - [Exercise 1.0 - Create CAP Project and Fiori List Report App based on Image](../ex1.0/README.md)
 
