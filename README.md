@@ -10,7 +10,7 @@ You will gain comprehensive knowledge of AI-assisted full-stack development, and
 
 ## Using AI during App Development
 
-We are using GitHub Copilot as AI coding assistant within VS Code and Anthropic Claude Sonnet/Opus LLM (Large Language Model) throughout the exercises. When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. GitHub Copilot and the chosen LLM are powerful assistants for problem resolution.
+We are using GitHub Copilot as AI coding assistant within VS Code throughout the exercises. When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. GitHub Copilot and the chosen LLM are powerful assistants for problem resolution.
 
 ## Exercises
 

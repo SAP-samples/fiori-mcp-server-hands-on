@@ -18,7 +18,7 @@
 5. Copy and paste the following prompt into the task input and execute the task:
     ```
     Create a booking detail object page based on the extracted data.
-    - Use Dollar as currency.
+    - Use USD as currency.
     - Generate mock data.
 
     Create implementation plan first, then proceed with confirmation.
