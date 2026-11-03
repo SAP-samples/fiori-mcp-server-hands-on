@@ -99,7 +99,7 @@ To enhance AI assistance with CAP and SAP Fiori development patterns and best pr
 
 4. Ensure that the Projects folder has following content
 
-    ![image](images/explorer.png) // change image
+    ![image](images/explorer.png)
 
 
 ## Summary
