@@ -2,15 +2,16 @@
 
 ## Overview
 
-AI can carry a lot of the repetitive work in SAP development, if you let it drive the right tools. In this tutorial you do exactly that: you talk to an AI assistant in plain language, and it builds a CAP service and a SAP Fiori Elements app on top of it, then helps you enhance both.
+You will gain comprehensive knowledge of AI-assisted full-stack development and learn how to kickstart SAP Fiori Elements application development using the **SAP Cloud Application Programming Model (CAP)**.
 
-Two MCP servers do the heavy lifting: the CAP MCP server handles the backend, and the MCP server for SAP Fiori generates and enhances the app. That server helps in more than one way, and you meet each along the way: change tools that apply edits, a doc search that returns matching documentation snippets, and SAP Fiori development skills that package a whole task. You start from a travel booking scenario, build a CAP service with CDS models, generate a List Report and Object Page, and then extend the UI and the service step by step, all through natural-language prompts.
+Throughout the exercises, we will use **GitHub Copilot in VS Code** as our AI coding assistant.
 
-You will gain comprehensive knowledge of AI-assisted full-stack development, and learn how to kickstart your SAP Fiori Elements application development.
+When developing SAP Fiori applications with large language models (LLMs), you may occasionally encounter technical errors when invoking MCP server tools. GitHub Copilot and your chosen LLM can help you analyze errors, troubleshoot issues, and identify possible solutions.
 
-## Using AI during App Development
+**MCP Servers Used**
 
-We are using GitHub Copilot as AI coding assistant within VS Code throughout the exercises. When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. GitHub Copilot and the chosen LLM are powerful assistants for problem resolution.
+- **MCP Server for CAP :** Supports CAP application development by providing AI assistants with tools and context for working with CAP projects, CDS models, services, and related development tasks.
+- **MCP Server for SAP Fiori :** Supports SAP Fiori application development by providing tools that help AI assistants create and enhance SAP Fiori Elements applications, work with OData services and metadata, and apply SAP Fiori development best practices.
 
 ## Exercises
 
