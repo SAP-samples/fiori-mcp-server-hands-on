@@ -12,6 +12,10 @@ As a participant of the hands-on tutorial, you will use **Visual Studio Code** o
 
 Install the following tools so that VS Code can build and run the SAP Fiori / CAP projects used in this tutorial.
 
+### GitHub Copilot access
+
+A GitHub account with access to GitHub Copilot. A free tier works for trying this out; check your plan at [github.com/features/copilot](https://github.com/features/copilot).
+
 ### Node.js (LTS)
 
 1. Download and install the latest **LTS** version of Node.js from https://nodejs.org/.
@@ -42,7 +46,7 @@ GitHub Copilot Chat is a built-in extension in VS Code and part of standard VS C
 1. Sign in with your personal or work GitHub account.
 2. Open Copilot Chat by opening the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and running **Chat: Focus on Chat View**.
 3. Click the model dropdown at the bottom of the chat panel.
-4. Select any Claude **Sonnet** or **Opus** model version of your choice.
+4. Select a model of your choice based on your plan.
 6. Enable the required Copilot settings for this tutorial:
 
     1. Open the Command Palette and run **Preferences: Open User Settings (JSON)**.
@@ -119,7 +123,7 @@ In the next exercises you will use AI to **generate a new project** inside this 
 
 ## Summary
 
-You have successfully set up your AI development environment with Visual Studio Code, installed the SAP Fiori tools - Extension Pack and Node.js, installed the **sap-ux-fiori-tools** Copilot plugin, and signed in to the built-in GitHub Copilot with a Claude **Sonnet** or **Opus** model of your choice.
+You have successfully set up your AI development environment with Visual Studio Code, installed the SAP Fiori tools - Extension Pack and Node.js, installed the **sap-ux-fiori-tools** Copilot plugin, and signed in to the built-in GitHub Copilot with model of your choice.
 
 Continue to - [Exercise 1.0 - Create CAP Project and Fiori List Report App based on Image](../ex1.0/README.md)
 
