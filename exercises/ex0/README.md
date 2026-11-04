@@ -77,10 +77,14 @@ GitHub Copilot Chat is a built-in extension in VS Code and part of standard VS C
 2. Send the following prompt:
 
     ```text
-    List the tools and their description for fiori and cap mcp server in table format
+    
+    Run a smoke test on the CAP and SAP Fiori MCP documentation search tools using the query "hierarchy table" (3 results per server). Return a table with columns: MCP Server, Result Count, Available, Connected.
+
     ```
 
-3. Verify that the response includes tools from both the **Fiori** and **CAP** MCP servers, presented in a table with their names and descriptions. If either server's tools are missing, revisit the installation steps above.
+3. Confirm that the table includes both the **Fiori** and **CAP** MCP servers and reports each server's result count, availability, and connection status. If either server is unavailable or not connected, revisit the installation steps above.
+
+    ![smoke-test-mcp-server](./images/smoke-test-mcp-server.png)
 
 ## Install Skills for CAP and SAP Fiori Application Development
 

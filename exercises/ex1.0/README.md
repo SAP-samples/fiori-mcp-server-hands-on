@@ -17,10 +17,11 @@
 4. Copy and paste the following prompt into the task input and execute the task:
 
     ```
-    /cap-developer Generate CAP NodeJs project based on extracted data.
-    - Include technical key and business key for all entities.
-    - Use USD as currency throughout the application.
-    - Apply criticality for travel status
+    /cap-developer Generate a new CAP Node.js project based on the extracted data.
+    - Include both a technical key and a business key for every entity.
+    - Use USD as the currency throughout the application.
+    - Apply criticality to the travel status.
+    - Track your work with a to-do list.
     ```
 
 5. Copilot generates the CAP project by applying the guidelines defined in the `cap-developer` skill.
