@@ -1,57 +1,51 @@
-# Modify travel object page based on Figma Design
+# Add Object Page for Booking Details
 
-1. Close previous task.
+1. Create a new chat.
 
-    <img src="../ex2.0/images/close-task.png" alt="close task" width="60%"/>
+    <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
 
-2. Select **Plan mode**.
+2. Drag and drop the image [bookings-object-page.png](../../bookings-object-page.png) from the images folder into the Copilot Chat window to attach it as context.
 
-    ![plan mode](../ex2.0/images/plan-mode.png)
-
-3. Enter the following prompt in the task input (don't execute yet):
+3. Copy and paste the following prompt into the task input and execute the task:
     ```
-    Modify the travels object page based on the figma design from this link
-    <insert_link_here>
-    
-    The object page shall include a bookings table section.
-    Add mock data for the bookings table.
+    Extract data from the attached Image. Do not inspect any other image files in the workspace.
     ```
 
-4. In the web browser tab with your Figma Design, select **Screen 2 - Object Page**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.
+4. Verify that the extracted data matches the image.
 
-5. Insert the link into the prompt text.
+    ![second object page](./images/extract-image.png)
 
-6. Press `Enter` to start the task.
+5. Copy and paste the following prompt into the task input and execute the task:
+    ```
+    Create a booking detail object page based on the extracted data.
+    - Use Dollar as currency.
+    - Generate mock data.
 
-7. Cline will generate an **Implementation Plan**.
+    Create implementation plan first, then proceed with confirmation.
+    Consult MCP servers.
+    ```
 
-8. Review the plan once it's ready.
+6. Copilot prepares an implementation plan.
 
-9. Switch to **Act mode**.
+    ![second object page](./images/imp-plan.png)
 
-10. Cline will execute the implementation plan.
+7. Confirm the implementation plan by responding with "Yes" or "Proceed".
 
-11. After completion, verify the object page in the application preview:
-    - Verify object page header contains both title and description.
-    - Make sure fields in the **General Information** are arranged as per the Figma Design.
+    ![booking object page](./images/execute-booking-objpage.png)
 
-    ![travel object page](./images/travel-objpage.png)
+8. After completion, navigate to the Travel object page and click on a row in the bookings table to open the booking object page. Verify the booking object page appears correctly in the application preview.
+
+    ![booking object page](./images/booking-objpage.png)
 
 ## Troubleshoot
 
-1. Update the Object Page Title and Description based on the Figma Design. Use the following prompt:
-    ```
-    Set the travel description as the object page title and display the travel title below it.
-    ```
-
-2. Some fields in the **General Information** section are missing. Use the following prompt and insert the Figma Design link into the prompt text:
-    ```
-    Arrange or add fields in the General Information section as shown in figma design from this link
-    <insert_link_here>.
-    ```
+- Booking Extras table does not appear below General Information section.
+    Execute the prompt: `Change section layout to page for booking object page`.
+- The booking table doesn't have navigation to object page. Execute the prompt `Ensure manifest configuration for new object page`.
+- Section **Booking Extras** is missing in the booking object page. Execute the prompt: `booking extras table section is missing`.
+- The Booking Extras table has no data. Execute the prompt: `add mock data for booking extras`.
+- Error `Composition in draft-enabled entity can't lead to another entity with "@odata.draft.enabled" (in entity:"TravelService.Travel"/element:"Bookings")`. Copy and paste error message to Copilot to fix the issue.
 
 ## Summary
 
-You have successfully modified the travel object page based on the Figma Design, including the bookings table section.
-
-Continue to - [Exercise 3.1 - Add Custom Section with RichTextEditor Building Block](../ex3.1/README.md)
+Congratulations, you have completed all exercises!
